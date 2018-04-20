@@ -1,0 +1,164 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Untitled Page</title>
+    <link href="css/helppopup.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <div class="bg1_wrapper">
+        <div class="remote_wrapper">
+            <div class="right_shade">
+                <img src="images/right_shade.png" />
+            </div>
+            <div class="left_shade">
+                <img src="images/left_shade.png" />
+            </div>
+            <div class="bg2">
+                <img src="images/bg2.png" />
+            </div>
+            <div class="mike_wrapper">
+                <div class="mike_anim">
+                    <img src="images/mike.gif" />
+                </div>
+                <div class="mike_txt1">
+                    <!--<span class="spk_now"></span>-->
+                    <div class="spk_now1">
+                        <span class="green_bg">Step 1</span>Switch on the MIC<div>
+                            <span class="green_bg">Step 2 </span>Hold remote close to you</div>
+                    </div>
+                    <div class="spk_now2">
+                        <span class="green_bg">Step 3</span>Speak
+                        <div>
+                            <span class="green_bg">Step 4 </span>Make sure to turn off MIC</div>
+                    </div>
+                    <div class="spk_now3">
+                        <span>Speak Now</span> "Hotel Info"</div>
+                    <div class="spk_now4">
+                        <span>Speak Now</span> "Browser"</div>
+                    <div class="spk_now5">
+                        <span>Speak Now</span> "TV Channels"</div>
+                    <div class="spk_now6">
+                        <span>Speak Now</span> "I want to watch a movie"</div>
+                    <!--<span class="spk_now1"></span>
+                <span class="spk_now2"></span>
+                 <span class="spk_now3"></span>
+                <span class="spk_now4"></span>-->
+                </div>
+            </div>
+            <div id="remote">
+                <img src="images/remote1.png" id="remote_img1" />
+                <div id="home_section">
+                    <div class="circle home">
+                    </div>
+                    <div class="line_txt">
+                        <h1>
+                            Home</h1>
+                        <span></span>
+                    </div>
+                </div>
+                <div id="mouse_onoff">
+                    <div class="circle mouse1">
+                    </div>
+                    <div class="line_txt">
+                        <h1>
+                            Mouse on/off</h1>
+                        <span></span>
+                    </div>
+                </div>
+                <div id="mike_section">
+                    <div class="circle mike">
+                    </div>
+                    <div class="line_txt">
+                        <h1>
+                            Microphone on/off</h1>
+                        <span></span>
+                    </div>
+                </div>
+                <div id="channel_list">
+                    <div class="circle chnl">
+                    </div>
+                    <div class="line_txt">
+                        <h1>
+                            Channel list</h1>
+                        <span></span>
+                    </div>
+                </div>
+                <div id="return_btn">
+                    <div class="circle return">
+                    </div>
+                    <div class="line_txt">
+                        <h1>
+                            Return</h1>
+                        <span></span>
+                    </div>
+                </div>
+                <div id="navigation">
+                    <div class="circle nav1">
+                    </div>
+                    <div class="line_txt">
+                        <h1>
+                            Navigation</h1>
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/jquery-1.9.1.min.js" type="text/javascript"></script>
+
+    <script src="js/remote_animation.js" type="text/javascript"></script>
+	<script type="text/javascript" src="js/tvurl_capture_query.js"></script>
+	
+	<script type="text/javascript">
+	function bckbtnpressed()
+	{
+	
+		var currentLocation = String(window.location);		
+		//document.getElementById("spkmsg").innerHTML+="<br>hi kaeman " + currentLocation;
+		if (currentLocation.indexOf('help') !== -1)
+		{
+			window.location = "index.html?fromurl=help";
+		}
+		
+	}	
+	function homepageshowing()
+	{
+		window.location = "index.html?fromurl=help";
+		
+	}
+	var countofnine=0;
+	var countoffour=0;
+	var countofsix=0;
+	var countofone=0;
+	$(document).keydown(function(e) {
+		var keyCode = e.keyCode;
+		console.log("keycode pressed " + keyCode);
+			if (keyCode == 122 ) {     /* No 1 Mike event*/ 
+				homescreenpage.htmlkeycodehandler('122');
+			}
+				if (keyCode == 49 ) {     /* No 1 */
+					countofone++;
+				}
+				if (keyCode == 52) {     /* No 4 */
+					countoffour++;
+				}				
+				if (keyCode == 54) {     /* No 6 */
+					countofsix++;
+				}
+				if (keyCode == 57) {     /* No 9 */
+					countofnine++;
+				}
+			//console.log("9  "+ countofnine +" 4 " +countoffour + " 6 " + countofsix + " 1 " + countofone)	
+		if ((countofnine == 2) && (countoffour==2) && (countofsix==1) && (countofone==1)){
+			console.log("inside if condition  " );
+			homescreenpage.htmlkeycodehandler('openconfig');
+			countofnine=0;countoffour=0;countofsix=0;countofone=0;
+		}
+				
+	});
+	</script>
+
+
+</body>
+</html>

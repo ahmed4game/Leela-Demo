@@ -1,0 +1,252 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Untitled Page</title>
+   
+     <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+     <link href="css/remote1.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <div class="bg1_wrapper">
+        <div class="remote_wrapper">
+            <div class="right_shade">
+                <img src="images/right_shade.png" />
+            </div>
+           <!-- <div class="left_shade">
+                <img src="images/left_shade.png" />
+            </div>-->
+            <div class="bg2">
+                <img src="images/bg2.png" />
+            </div>
+            <div class="mike_wrapper">
+                <div class="mike_anim">
+                    <img src="images/mike.gif" />
+                </div>
+                <div class="mike_txt1">
+                    <!--<span class="spk_now"></span>-->
+                    <div class="spk_now1">
+                        <span class="green_bg">Step 1</span>Press hold MIC to listen your voice commands
+                        <div>
+                            <span class="green_bg">Step 2 </span>Hold remote close to your mouth</div>
+                    </div>
+                    <div class="spk_now2">
+                        <span class="green_bg">Step 3</span>Speak Now
+                        <div>
+                            <span class="green_bg">Step 4 </span>Release MIC to close voice assistant
+                        </div>
+                    </div>
+                    <div class="spk_now3">
+                        <span>List of voice commands to Speak "TV channels"</span></div>
+                    <div class="spk_now4">
+                        <h1>
+                            Browser</h1>
+                    </div>
+                    <div class="spk_now5">
+                        <h1>
+                            Youtube<h1>
+                    </div>
+                    <div class="spk_now6">
+                        <h1>
+                            Hotel info</h1>
+                    </div>
+                    <div class="spk_now7">
+                        <h1>
+                            About us</h1>
+                    </div>
+                    <div class="spk_now8">
+                        <h1>
+                            Accommodation</h1>
+                    </div>
+                    <div class="spk_now9">
+                        <h1>
+                            I want to watch a movie</h1>
+                    </div>
+                    <div class="spk_now10">
+                        <h1>
+                            what's the weather like</h1>
+                    </div>
+                </div>
+            </div>
+            <div id="remote">
+                <img src="images/remote1.png" id="remote_img1" />
+                <div id="home_section">
+                    <div class="circle home">
+                    </div>
+                    <div class="line_txt">
+                        <h1>
+                            Power On/Off</h1>
+                        <span></span>
+                    </div>
+                </div>
+                <div id="mouse_onoff">
+                    <div class="circle mouse1">
+                    </div>
+                    <div class="line_txt">
+                        <h1>
+                            Back</h1>
+                        <span></span>
+                    </div>
+                </div>
+                <div id="mike_section">
+                    <div class="circle mike">
+                    </div>
+                    <div class="line_txt">
+                        <h1>
+                            Volume Up</h1>
+                        <span></span>
+                    </div>
+                </div>
+                <div id="channel_list">
+                    <div class="circle chnl">
+                    </div>
+                    <div class="line_txt">
+                        <h1>
+                            Volume Down</h1>
+                        <span></span>
+                    </div>
+                </div>
+                <div id="ok_btn">
+                    <div class="circle okbtn">
+                    </div>
+                    <div class="line_txt">
+                        <h1>
+                            OK</h1>
+                        <span></span>
+                    </div>
+                </div>
+                <div id="return_btn">
+                    <div class="circle return">
+                    </div>
+                    <div class="line_txt">
+                        <h1>
+                            Channel List</h1>
+                        <span></span>
+                    </div>
+                </div>
+                <div id="navigation">
+                    <div class="circle nav1">
+                    </div>
+                    <div class="line_txt">
+                        <h1>
+                            Navigation</h1>
+                        <span></span>
+                    </div>
+                    <div class="channel_note3">
+                        If press  LEFT arrow , volume will be muted while watching TV channels
+                    </div>
+                </div>
+                <div id="home_btn">
+                    <div class="circle h_btn">
+                    </div>
+                    <div class="line_txt">
+                        <h1>
+                            Home
+                        </h1>
+                        <span></span>
+                    </div>
+                </div>
+                <div id="mouse2">
+                    <div class="circle anim_btn1">
+                    </div>
+                    <div class="line_txt">
+                        <h1>
+                            Mouse ON/OFF
+                        </h1>
+                        <span></span>
+                    </div>
+                </div>
+                <div id="channel_up">
+                    <div class="circle chl_plus">
+                    </div>
+                    <div class="line_txt">
+                        <h1>
+                            Channel Down</h1>
+                        <span></span>
+                    </div>
+                    <div class="channel_note">
+                        If press CH- button while on browser / channel list , act as page down
+                    </div>
+                </div>
+                <div id="channel_down">
+                    <div class="circle chl_minus">
+                    </div>
+                    <div class="line_txt">
+                        <h1>
+                            Channel Up</h1>
+                        <span></span>
+                    </div>
+                    <div class="channel_note2">
+                        If press CH+ button while on browser / channel list , act as <br /> page up
+                    </div>
+                </div>
+                <div id="mike_icon">
+                    <div class="circle mike_s">
+                    </div>
+                    <div class="line_txt">
+                        <h1>
+                            MIC (voice Assistant)</h1>
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/jquery-1.9.1.min.js" type="text/javascript"></script>
+
+    <script src="js/remote_animation.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+	function bckbtnpressed()
+	{
+	
+		var currentLocation = String(window.location);		
+		//document.getElementById("spkmsg").innerHTML+="<br>hi kaeman " + currentLocation;
+		if (currentLocation.indexOf('help') !== -1)
+		{
+			window.location = "index.html?fromurl=help";
+		}
+		
+	}	
+	function homepageshowing()
+	{
+		window.location = "index.html?fromurl=help";
+		
+	}
+	var countofright=0;
+	var countofleft=0;
+	var countofchplus=0;
+	var countofchminus=0;
+	$(document).keydown(function(e) {
+		var keyCode = e.keyCode;
+		console.log("keycode pressed " + keyCode);
+		
+				if (keyCode == 39 ) {     /* right key */
+					countofright++;
+				}
+				if (keyCode == 33) {     /* ch+ key */
+					countofchplus++;
+				}				
+				if (keyCode == 34) {     /* ch- key */
+					countofchminus++;
+				}
+				if (keyCode == 37) {     /* left key */
+					countofleft++;
+				}
+			//console.log("9  "+ countofnine +" 4 " +countoffour + " 6 " + countofsix + " 1 " + countofone)	
+		if ((countofright == 4) && (countofchplus==2) && (countofchminus==4) && (countofleft==2)){
+			console.log("inside if condition  " );
+			homescreenpage.htmlkeycodehandler('openconfig');
+			countofnine=0;countoffour=0;countofsix=0;countofone=0;
+		}
+		
+		if ((countofright == 1) && (countofchplus==1) && (countofchminus==1) && (countofleft==1)){
+			window.location = "mysettings.html";
+		}
+				
+	});
+	</script>
+</body>
+</html>

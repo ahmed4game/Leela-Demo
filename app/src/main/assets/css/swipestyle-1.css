@@ -1,0 +1,97 @@
+
+  
+  #slider div b {
+    display:block;
+   /* font-weight:bold;*/
+    color:#ffffff !important;
+    font-size:20px;
+    text-align:left;
+    margin:10px;
+   /* padding:100px 10px;*/
+  /*  box-shadow: 0 1px #EBEBEB;
+    background: #fff;
+    border-radius: 3px;
+    border: 1px solid;
+    border-color: #E5E5E5 #D3D3D3 #B9C1C6;*/
+  }
+  
+  .tiqri_tittle_color {
+   	font-weight:bold;   
+	color:#e0d62b !important;
+	font-size:30px;
+  }
+
+  .swipe {
+    overflow: hidden;
+    visibility: hidden;
+    position: relative;
+  }
+  .swipe-wrap {
+    overflow: hidden;
+    position: relative;
+  }
+  .swipe-wrap > div {
+    float:left;
+    width:100%;
+    position: relative;
+  }
+/*
+  .counter {
+    height: 55px;
+    ul {
+      text-align: center;
+      li {
+        /* padding: 5px;*/
+  /*     display: inline-block;
+        height: 10px;
+        width: 10px;
+        border: solid 2px #404041;
+        border-radius: 10px;
+        margin: 2.5px;
+        &.on {
+          background: #404041;
+        }
+      }
+    }
+}*/
+.counter {
+    height: 55px;
+	
+	}
+	
+.counter ul {
+      text-align: center;
+	  }
+	  
+.counter ul li{
+ 		display: inline-block;
+        height: 10px;
+        width: 10px;
+        border: solid 2px #404041;
+        border-radius: 10px;
+        margin: 2.5px;
+		}
+		
+.counter ul li.on{
+ 		 background: #404041;
+		}
+
+.bottom_pannel_right{ 
+		float:right;
+		}
+
+		
+.Privacy_info{ width:750px; left:200px; margin:0 auto; background: url(images/messboxbg1.png) repeat; 
+	               margin-top:140px;  border:solid 3px #dedede; overflow:hidden; position:absolute;	}
+
+ 
+.contents{ padding:20px;}
+
+.contents p{ color:#fff; font-size:25px; font-weight:bold; height: 50px; line-height: 90px; text-align: center;}
+
+.left_section{ float:left;}
+
+.right_section{ float:left;  margin-left:300px;  margin-bottom:20px;
+
+}
+		

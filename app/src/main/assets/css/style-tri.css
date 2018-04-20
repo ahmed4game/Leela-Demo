@@ -1,0 +1,222 @@
+html, body
+	{
+		height: 100%;
+	}
+	
+	body
+	{
+		margin:0;
+		padding: 0em;
+		font-family: 'Open Sans', sans-serif;
+		
+		
+	}
+
+	a {
+	
+	text-decoration: none;
+	}
+
+	a:hover {
+	text-decoration: none;
+	color: #ffc600 ;
+	}
+
+	
+	#banner_tiqri
+	{
+		overflow: hidden;
+		background: url(../images/tiqri01.png) no-repeat; 		
+		height:720px;
+		width:1280px;
+
+	}
+
+		#tiqri_service_photo
+
+			{
+			overflow: hidden;			
+			height:720px;
+			width:1280px;
+				}		
+	
+
+		#menu_pannel_bg
+
+			{
+			overflow: hidden;
+			background: url(../images/menubg.png) repeat-x; 
+			height:84px;
+			width:1280px;
+			text-align:center;
+			
+			border-top:2px solid #07c9f0;
+			border-bottom:2px solid #07c9f0;
+				}
+
+			.logo_detail{ 
+			float:left;			
+			margin: 0PX auto;
+			padding:20px 10px 0 0;	
+			}
+			
+			.title_detail{ 
+			float:left;
+			color:#ffffff !important;
+			font-size:20px;
+			margin-left:2em;
+			}
+
+		
+		.middle_image_pannel{ 
+			float:left;
+			margin: 10PX auto;			
+			background:#000000;	
+			padding: 0px 0px 0px 0px;
+			width:670px;
+			overflow-x:hidden; 
+			opacity:0.9;
+
+			}
+	
+		.middle_image_pannel_outer{ 
+			float:left;			
+			margin: 10PX auto auto 390px;				
+    						
+			padding: 0px 0px 0px 0px;
+			}
+
+		.middle_image_pannel_details{ 
+			float:left;			
+			margin: 10PX auto auto 50px;				
+    						
+			padding: 0px 0px 0px 0px;
+			}
+
+
+		.middle_image_pannel_bg{ 
+			
+			float:left;
+			margin: 10PX auto;			
+			background:#000000;	
+			padding: 0px 10px 0px 0px;
+			width:1080px;
+			opacity:0.9;
+			
+			}
+
+		.middle_image_pannel_photo{ 
+			
+			float:left;
+			margin: 0PX auto;		
+			
+			padding: 10px 10px 6px 10px;
+			
+			}
+		.middle_image_pannel_title{ 
+			
+		/*	float:left;  */
+		/*	margin: 0PX auto;	*/
+			
+			padding: 10px 0px 0px 20px;
+		/*	overflow-y:scroll; 
+			overflow-x:hidden; 
+			height:400px;"*/
+
+			}
+
+		.middle_image_pannel_title p{
+
+			color:#ffffff !important;
+			font-size:20px;
+			}
+
+		.middle_image_pannel_title span{
+
+			color:#e0d62b !important;
+			font-size:30px;
+			
+			}
+
+		.middle_pannel{ 
+			float:left;			
+			margin: 0PX auto auto 362px;					
+    					
+			padding: 0px 0px 0px 0px;
+			
+			z-index:99999;
+
+			}
+
+		.tv_channels{ 
+			
+			float:left;					
+			background:#090c12;		
+			
+			width:160px;			
+			text-align:center;
+			cursor:pointer;
+			display:block;
+			text-decoration:none !important;
+			margin: 10px 5px 10px 10px;
+			padding:0 0 10px 0;
+			
+			}
+
+	.bottom_pannel{ 
+			float:left;
+			verticle-align:bottom
+			display:block;	
+			margin:0px auto;				
+    		top:680px;			
+			padding: 0px 0px 0px 0px;
+			width:1280px;
+			
+			background:#000000;
+			position:absolute;
+			opacity: .7;
+			}
+
+	.bottom_pannel_right{ 
+			float:right;
+			}
+
+			.btn{
+				cursor:pointer;
+			display:block;
+			text-decoration:none !important;
+			float:left;
+			position:relative;
+			padding: 4px 10px 0px 20px;
+
+
+				}
+
+
+
+		.footer_nav_text{
+
+			color:#ffffff !important;
+			font-size:15px;
+			text-decoration: none;	
+			float:left;
+			position:relative;
+			padding: 10px 10px 0px 4px;
+
+			}
+		.bottom_pannel_left{ 
+			float:left;
+			color:#ffffff !important;
+			font-size:15px;
+			text-decoration: none;		
+			position:relative;
+			padding: 10px 10px 0px 20px;
+			}		
+		
+
+#ServerloadDiv {position:absolute;left:0;top:0;width:1280px;height:720px;}
+#Serverload {position:absolute;width:260px;height:65px;left:510px !important;top:334px !important;background:url(../images/loading_bg_260_52_.png) 0 8px no-repeat;text-align:left;font-size:18px;z-index:998;}
+img#Serverloadimg {padding:13px;}
+#Serverload span {position:absolute;left:55px;top:22px;text-align:center;display:inline-block;width:150px; color:#ffffff !important;}
+
+		

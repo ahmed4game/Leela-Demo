@@ -1,0 +1,491 @@
+2018-01-24 02:24:14 ---- Activity oncreate executed
+2018-01-24 02:24:15 ---- error: connecting Webserver IP
+2018-01-24 02:24:15 ---- Webserver NOT REACHABLE
+2018-01-24 02:24:15 ---- Please insert the USB to TV connector
+2018-01-24 02:24:15 ---- Webserver NOT REACHABLE
+2018-01-24 02:24:17 ---- Page load Error description: net::ERR_ADDRESS_UNREACHABLE Error errorCode: -2 Error failingUrl: http://172.16.63.11/Ithaca/index.html
+2018-01-24 02:24:18 ---- error: connecting Webserver IP
+2018-01-24 02:24:18 ---- Webserver NOT REACHABLE
+2018-01-24 02:24:18 ---- Page load http://172.16.63.11/Ithaca/index.html successfully
+2018-01-24 02:24:18 ---- Webserver NOT REACHABLE
+2018-01-24 02:24:18 ---- Page load file:///android_asset/index.html successfully
+2018-01-24 02:24:18 ---- Webserver NOT REACHABLE
+2018-01-24 02:24:32 ---- OTT BOOT_COMPLETED
+2018-01-24 02:24:33 ---- error: connecting Webserver IP
+2018-01-24 02:24:33 ---- Webserver NOT REACHABLE
+2018-01-24 02:25:14 ---- adb offlie check
+2018-01-24 02:25:15 ---- error: connecting Webserver IP
+2018-01-24 02:25:15 ---- Webserver NOT REACHABLE
+2018-01-24 02:30:14 ---- adb offlie check
+2018-01-24 02:30:15 ---- error: connecting Webserver IP
+2018-01-24 02:30:15 ---- Webserver NOT REACHABLE
+2018-01-24 02:35:40 ---- Activity oncreate executed
+2018-01-24 02:35:41 ---- Please insert the USB to TV connector
+2018-01-24 02:35:43 ---- Page load http://172.16.63.11/Ithaca/index.html successfully
+2018-01-24 02:35:55 ---- OTT BOOT_COMPLETED
+2018-01-24 02:36:41 ---- adb offlie check
+2018-01-24 02:37:36 ---- java.lang.NullPointerException: Attempt to invoke virtual method 'void usbserial.util.SerialInputOutputManager.writeAsync(byte[])' on a null object reference
+	at msense.homepages.HomeActivity.htmlpagecodehandler(HomeActivity.java:1164)
+	at msense.homepages.HomeActivity.access$1900(HomeActivity.java:75)
+	at msense.homepages.HomeActivity$htmlkeycodehandler_task.doInBackground(HomeActivity.java:1065)
+	at msense.homepages.HomeActivity$htmlkeycodehandler_task.doInBackground(HomeActivity.java:1056)
+	at android.os.AsyncTask$2.call(AsyncTask.java:295)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+	at android.os.AsyncTask$SerialExecutor$1.run(AsyncTask.java:234)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1113)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:588)
+	at java.lang.Thread.run(Thread.java:818)
+
+2018-01-24 02:37:43 ---- java.lang.NullPointerException: Attempt to invoke virtual method 'void usbserial.util.SerialInputOutputManager.writeAsync(byte[])' on a null object reference
+	at msense.homepages.HomeActivity.htmlpagecodehandler(HomeActivity.java:1164)
+	at msense.homepages.HomeActivity.access$1900(HomeActivity.java:75)
+	at msense.homepages.HomeActivity$htmlkeycodehandler_task.doInBackground(HomeActivity.java:1065)
+	at msense.homepages.HomeActivity$htmlkeycodehandler_task.doInBackground(HomeActivity.java:1056)
+	at android.os.AsyncTask$2.call(AsyncTask.java:295)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+	at android.os.AsyncTask$SerialExecutor$1.run(AsyncTask.java:234)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1113)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:588)
+	at java.lang.Thread.run(Thread.java:818)
+
+2018-01-24 02:37:43 ---- java.lang.NullPointerException: Attempt to invoke virtual method 'void usbserial.util.SerialInputOutputManager.writeAsync(byte[])' on a null object reference
+	at msense.homepages.HomeActivity.htmlpagecodehandler(HomeActivity.java:1164)
+	at msense.homepages.HomeActivity.access$1900(HomeActivity.java:75)
+	at msense.homepages.HomeActivity$htmlkeycodehandler_task.doInBackground(HomeActivity.java:1065)
+	at msense.homepages.HomeActivity$htmlkeycodehandler_task.doInBackground(HomeActivity.java:1056)
+	at android.os.AsyncTask$2.call(AsyncTask.java:295)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+	at android.os.AsyncTask$SerialExecutor$1.run(AsyncTask.java:234)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1113)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:588)
+	at java.lang.Thread.run(Thread.java:818)
+
+2018-01-24 02:40:02 ---- Activity oncreate executed
+2018-01-24 02:40:02 ---- Starting io manager ..
+2018-01-24 02:40:04 ---- Page load http://172.16.63.11/Ithaca/index.html successfully
+2018-01-24 02:40:05 ---- Cmd sent tv
+2018-01-24 02:40:05 ---- 08220A000000CC
+2018-01-24 02:40:05 ---- 030CF1
+2018-01-24 02:40:06 ---- Cmd sent 20
+2018-01-24 02:40:06 ---- 08220100000ACB
+2018-01-24 02:40:06 ---- 030CF1
+2018-01-24 02:41:02 ---- Cmd sent picmode
+2018-01-24 02:41:03 ---- adb offlie check
+2018-01-24 02:41:03 ---- 08220D00006168
+2018-01-24 02:41:03 ---- 030CF1
+2018-01-24 02:43:41 ---- Cmd sent home
+2018-01-24 02:43:41 ---- 08220A000500C7
+2018-01-24 02:43:41 ---- 030CF1
+2018-01-24 02:43:42 ---- Cmd sent 50
+2018-01-24 02:43:42 ---- 082201000032A3
+2018-01-24 02:43:42 ---- 030CF1
+2018-01-24 02:45:02 ---- Cmd sent picmode
+2018-01-24 02:45:03 ---- USB NOT WORKING
+2018-01-24 02:46:02 ---- adb offlie check
+2018-01-24 02:49:02 ---- Cmd sent picmode
+2018-01-24 02:49:03 ---- USB NOT WORKING
+2018-01-24 02:51:02 ---- adb offlie check
+2018-01-24 02:53:03 ---- Cmd sent picmode
+2018-01-24 02:53:03 ---- USB NOT WORKING
+2018-01-24 02:56:02 ---- adb offlie check
+2018-01-24 02:57:02 ---- Cmd sent picmode
+2018-01-24 02:57:03 ---- USB NOT WORKING
+2018-01-24 03:01:02 ---- Cmd sent picmode
+2018-01-24 03:01:02 ---- adb offlie check
+2018-01-24 03:01:03 ---- USB NOT WORKING
+2018-01-24 03:05:02 ---- Cmd sent picmode
+2018-01-24 03:05:03 ---- USB NOT WORKING
+2018-01-24 03:06:02 ---- adb offlie check
+2018-01-24 03:09:02 ---- Cmd sent picmode
+2018-01-24 03:09:03 ---- USB NOT WORKING
+2018-01-24 03:11:02 ---- adb offlie check
+2018-01-24 03:13:02 ---- Cmd sent picmode
+2018-01-24 03:13:03 ---- USB NOT WORKING
+2018-01-24 03:16:02 ---- adb offlie check
+2018-01-24 03:17:02 ---- Cmd sent picmode
+2018-01-24 03:17:03 ---- USB NOT WORKING
+2018-01-24 03:21:02 ---- Cmd sent picmode
+2018-01-24 03:21:02 ---- adb offlie check
+2018-01-24 03:21:03 ---- USB NOT WORKING
+2018-01-24 03:25:02 ---- Cmd sent picmode
+2018-01-24 03:25:03 ---- USB NOT WORKING
+2018-01-24 03:26:02 ---- adb offlie check
+2018-01-24 03:26:37 ---- Activity oncreate executed
+2018-01-24 03:26:38 ---- Please insert the USB to TV connector
+2018-01-24 03:26:39 ---- Page load http://172.16.63.11/Ithaca/index.html successfully
+2018-01-24 03:26:54 ---- OTT BOOT_COMPLETED
+2018-01-24 03:27:38 ---- adb offlie check
+2018-01-24 03:28:53 ---- java.lang.NullPointerException: Attempt to invoke virtual method 'void usbserial.util.SerialInputOutputManager.writeAsync(byte[])' on a null object reference
+	at msense.homepages.HomeActivity.htmlpagecodehandler(HomeActivity.java:1165)
+	at msense.homepages.HomeActivity.access$1900(HomeActivity.java:75)
+	at msense.homepages.HomeActivity$htmlkeycodehandler_task.doInBackground(HomeActivity.java:1066)
+	at msense.homepages.HomeActivity$htmlkeycodehandler_task.doInBackground(HomeActivity.java:1057)
+	at android.os.AsyncTask$2.call(AsyncTask.java:295)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+	at android.os.AsyncTask$SerialExecutor$1.run(AsyncTask.java:234)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1113)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:588)
+	at java.lang.Thread.run(Thread.java:818)
+
+2018-01-24 03:28:56 ---- java.lang.NullPointerException: Attempt to invoke virtual method 'void usbserial.util.SerialInputOutputManager.writeAsync(byte[])' on a null object reference
+	at msense.homepages.HomeActivity.setfixsoundontv(HomeActivity.java:1697)
+	at msense.homepages.HomeActivity.access$1300(HomeActivity.java:75)
+	at msense.homepages.HomeActivity$JsInterface_homescreen_activity.volumeListener(HomeActivity.java:1039)
+	at org.chromium.base.SystemMessageHandler.nativeDoRunLoopOnce(Native Method)
+	at org.chromium.base.SystemMessageHandler.handleMessage(SystemMessageHandler.java:53)
+	at android.os.Handler.dispatchMessage(Handler.java:102)
+	at android.os.Looper.loop(Looper.java:148)
+	at android.os.HandlerThread.run(HandlerThread.java:61)
+
+2018-01-24 03:28:57 ---- java.lang.NullPointerException: Attempt to invoke virtual method 'void usbserial.util.SerialInputOutputManager.writeAsync(byte[])' on a null object reference
+	at msense.homepages.HomeActivity.htmlpagecodehandler(HomeActivity.java:1165)
+	at msense.homepages.HomeActivity.access$1900(HomeActivity.java:75)
+	at msense.homepages.HomeActivity$htmlkeycodehandler_task.doInBackground(HomeActivity.java:1066)
+	at msense.homepages.HomeActivity$htmlkeycodehandler_task.doInBackground(HomeActivity.java:1057)
+	at android.os.AsyncTask$2.call(AsyncTask.java:295)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+	at android.os.AsyncTask$SerialExecutor$1.run(AsyncTask.java:234)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1113)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:588)
+	at java.lang.Thread.run(Thread.java:818)
+
+2018-01-24 03:28:57 ---- java.lang.NullPointerException: Attempt to invoke virtual method 'void usbserial.util.SerialInputOutputManager.writeAsync(byte[])' on a null object reference
+	at msense.homepages.HomeActivity.htmlpagecodehandler(HomeActivity.java:1165)
+	at msense.homepages.HomeActivity.access$1900(HomeActivity.java:75)
+	at msense.homepages.HomeActivity$htmlkeycodehandler_task.doInBackground(HomeActivity.java:1066)
+	at msense.homepages.HomeActivity$htmlkeycodehandler_task.doInBackground(HomeActivity.java:1057)
+	at android.os.AsyncTask$2.call(AsyncTask.java:295)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+	at android.os.AsyncTask$SerialExecutor$1.run(AsyncTask.java:234)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1113)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:588)
+	at java.lang.Thread.run(Thread.java:818)
+
+2018-01-24 03:29:16 ---- Activity oncreate executed
+2018-01-24 03:29:16 ---- Starting io manager ..
+2018-01-24 03:29:18 ---- Page load http://172.16.63.11/Ithaca/index.html successfully
+2018-01-24 03:29:25 ---- 08220A000000CC
+2018-01-24 03:29:25 ---- 030CF1
+2018-01-24 03:29:25 ---- Cmd sent 00
+2018-01-24 03:29:26 ---- Cmd sent 20
+2018-01-24 03:29:26 ---- 08220100000ACB
+2018-01-24 03:29:26 ---- 030CF1
+2018-01-24 03:29:27 ---- Cmd sent home
+2018-01-24 03:29:27 ---- 08220A000500C7
+2018-01-24 03:29:27 ---- 030CF1
+2018-01-24 03:29:29 ---- Cmd sent 50
+2018-01-24 03:29:29 ---- 082201000032A3
+2018-01-24 03:29:29 ---- 030CF1
+2018-01-24 03:30:16 ---- Cmd sent picmode
+2018-01-24 03:30:16 ---- adb offlie check
+2018-01-24 03:30:16 ---- 08220D00006168
+2018-01-24 03:30:16 ---- 030CF1
+2018-01-24 03:30:56 ---- Activity oncreate executed
+2018-01-24 03:30:56 ---- Starting io manager ..
+2018-01-24 03:30:57 ---- Page load http://172.16.63.11/Ithaca/index.html successfully
+2018-01-24 03:30:58 ---- Cmd sent tv
+2018-01-24 03:30:58 ---- 08220A000000CC
+2018-01-24 03:30:58 ---- 030CF1
+2018-01-24 03:30:58 ---- Cmd sent 20
+2018-01-24 03:30:59 ---- 08220100000ACB
+2018-01-24 03:30:59 ---- 030CF1
+2018-01-24 03:31:02 ---- Cmd sent home
+2018-01-24 03:31:02 ---- 08220A000500C7
+2018-01-24 03:31:02 ---- 030CF1
+2018-01-24 03:31:03 ---- Cmd sent 50
+2018-01-24 03:31:03 ---- 082201000032A3
+2018-01-24 03:31:03 ---- 030CF1
+2018-01-24 03:31:40 ---- Please insert the USB to TV connector
+2018-01-24 03:31:41 ---- Page load http://172.16.63.11/Ithaca/index.html successfully
+2018-01-24 03:31:51 ---- java.lang.NullPointerException: Attempt to invoke virtual method 'void usbserial.util.SerialInputOutputManager.writeAsync(byte[])' on a null object reference
+	at msense.homepages.HomeActivity.htmlpagecodehandler(HomeActivity.java:1159)
+	at msense.homepages.HomeActivity.access$1900(HomeActivity.java:73)
+	at msense.homepages.HomeActivity$htmlkeycodehandler_task.doInBackground(HomeActivity.java:1061)
+	at msense.homepages.HomeActivity$htmlkeycodehandler_task.doInBackground(HomeActivity.java:1052)
+	at android.os.AsyncTask$2.call(AsyncTask.java:295)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+	at android.os.AsyncTask$SerialExecutor$1.run(AsyncTask.java:234)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1113)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:588)
+	at java.lang.Thread.run(Thread.java:818)
+
+2018-01-24 03:31:55 ---- java.lang.NullPointerException: Attempt to invoke virtual method 'void usbserial.util.SerialInputOutputManager.writeAsync(byte[])' on a null object reference
+	at msense.homepages.HomeActivity.setfixsoundontv(HomeActivity.java:1692)
+	at msense.homepages.HomeActivity.access$1400(HomeActivity.java:73)
+	at msense.homepages.HomeActivity$JsInterface_homescreen_activity.volumeListener(HomeActivity.java:1034)
+	at org.chromium.base.SystemMessageHandler.nativeDoRunLoopOnce(Native Method)
+	at org.chromium.base.SystemMessageHandler.handleMessage(SystemMessageHandler.java:53)
+	at android.os.Handler.dispatchMessage(Handler.java:102)
+	at android.os.Looper.loop(Looper.java:148)
+	at android.os.HandlerThread.run(HandlerThread.java:61)
+
+2018-01-24 03:31:56 ---- OTT BOOT_COMPLETED
+2018-01-24 03:32:00 ---- java.lang.NullPointerException: Attempt to invoke virtual method 'void usbserial.util.SerialInputOutputManager.writeAsync(byte[])' on a null object reference
+	at msense.homepages.HomeActivity.setfixsoundontv(HomeActivity.java:1692)
+	at msense.homepages.HomeActivity.access$1400(HomeActivity.java:73)
+	at msense.homepages.HomeActivity$JsInterface_homescreen_activity.volumeListener(HomeActivity.java:1034)
+	at org.chromium.base.SystemMessageHandler.nativeDoRunLoopOnce(Native Method)
+	at org.chromium.base.SystemMessageHandler.handleMessage(SystemMessageHandler.java:53)
+	at android.os.Handler.dispatchMessage(Handler.java:102)
+	at android.os.Looper.loop(Looper.java:148)
+	at android.os.HandlerThread.run(HandlerThread.java:61)
+
+2018-01-24 03:32:05 ---- java.lang.NullPointerException: Attempt to invoke virtual method 'void usbserial.util.SerialInputOutputManager.writeAsync(byte[])' on a null object reference
+	at msense.homepages.HomeActivity.htmlpagecodehandler(HomeActivity.java:1159)
+	at msense.homepages.HomeActivity.access$1900(HomeActivity.java:73)
+	at msense.homepages.HomeActivity$htmlkeycodehandler_task.doInBackground(HomeActivity.java:1061)
+	at msense.homepages.HomeActivity$htmlkeycodehandler_task.doInBackground(HomeActivity.java:1052)
+	at android.os.AsyncTask$2.call(AsyncTask.java:295)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+	at android.os.AsyncTask$SerialExecutor$1.run(AsyncTask.java:234)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1113)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:588)
+	at java.lang.Thread.run(Thread.java:818)
+
+2018-01-24 03:32:14 ---- java.lang.NullPointerException: Attempt to invoke virtual method 'void usbserial.util.SerialInputOutputManager.writeAsync(byte[])' on a null object reference
+	at msense.homepages.HomeActivity.htmlpagecodehandler(HomeActivity.java:1159)
+	at msense.homepages.HomeActivity.access$1900(HomeActivity.java:73)
+	at msense.homepages.HomeActivity$htmlkeycodehandler_task.doInBackground(HomeActivity.java:1061)
+	at msense.homepages.HomeActivity$htmlkeycodehandler_task.doInBackground(HomeActivity.java:1052)
+	at android.os.AsyncTask$2.call(AsyncTask.java:295)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+	at android.os.AsyncTask$SerialExecutor$1.run(AsyncTask.java:234)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1113)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:588)
+	at java.lang.Thread.run(Thread.java:818)
+
+2018-01-24 03:32:39 ---- null
+2018-01-24 03:32:39 ---- java.lang.NullPointerException: Attempt to invoke virtual method 'int java.lang.String.length()' on a null object reference
+	at libcore.net.UriCodec.encode(UriCodec.java:132)
+	at java.net.URLEncoder.encode(URLEncoder.java:57)
+	at com.mspl.com.hotelithaca.Cls_logger$SendPostRequest.doInBackground(Cls_logger.java:138)
+	at com.mspl.com.hotelithaca.Cls_logger$SendPostRequest.doInBackground(Cls_logger.java:123)
+	at android.os.AsyncTask$2.call(AsyncTask.java:295)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+	at android.os.AsyncTask$SerialExecutor$1.run(AsyncTask.java:234)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1113)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:588)
+	at java.lang.Thread.run(Thread.java:818)
+
+2018-01-24 03:32:47 ---- null
+2018-01-24 03:32:47 ---- java.lang.NullPointerException: Attempt to invoke virtual method 'int java.lang.String.length()' on a null object reference
+	at libcore.net.UriCodec.encode(UriCodec.java:132)
+	at java.net.URLEncoder.encode(URLEncoder.java:57)
+	at com.mspl.com.hotelithaca.Cls_logger$SendPostRequest.doInBackground(Cls_logger.java:138)
+	at com.mspl.com.hotelithaca.Cls_logger$SendPostRequest.doInBackground(Cls_logger.java:123)
+	at android.os.AsyncTask$2.call(AsyncTask.java:295)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+	at android.os.AsyncTask$SerialExecutor$1.run(AsyncTask.java:234)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1113)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:588)
+	at java.lang.Thread.run(Thread.java:818)
+
+2018-01-24 03:33:31 ---- Activity oncreate executed
+2018-01-24 03:33:32 ---- Please insert the USB to TV connector
+2018-01-24 03:33:33 ---- Page load http://172.16.63.11/Ithaca/index.html successfully
+2018-01-24 03:34:21 ---- Page load http://172.16.63.11/Ithaca/index.html successfully
+2018-01-24 03:34:24 ---- java.lang.NullPointerException: Attempt to invoke virtual method 'void usbserial.util.SerialInputOutputManager.writeAsync(byte[])' on a null object reference
+	at msense.homepages.HomeActivity.htmlpagecodehandler(HomeActivity.java:1159)
+	at msense.homepages.HomeActivity.access$1900(HomeActivity.java:73)
+	at msense.homepages.HomeActivity$htmlkeycodehandler_task.doInBackground(HomeActivity.java:1061)
+	at msense.homepages.HomeActivity$htmlkeycodehandler_task.doInBackground(HomeActivity.java:1052)
+	at android.os.AsyncTask$2.call(AsyncTask.java:295)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+	at android.os.AsyncTask$SerialExecutor$1.run(AsyncTask.java:234)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1113)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:588)
+	at java.lang.Thread.run(Thread.java:818)
+
+2018-01-24 03:34:26 ---- java.lang.NullPointerException: Attempt to invoke virtual method 'void usbserial.util.SerialInputOutputManager.writeAsync(byte[])' on a null object reference
+	at msense.homepages.HomeActivity.htmlpagecodehandler(HomeActivity.java:1159)
+	at msense.homepages.HomeActivity.access$1900(HomeActivity.java:73)
+	at msense.homepages.HomeActivity$htmlkeycodehandler_task.doInBackground(HomeActivity.java:1061)
+	at msense.homepages.HomeActivity$htmlkeycodehandler_task.doInBackground(HomeActivity.java:1052)
+	at android.os.AsyncTask$2.call(AsyncTask.java:295)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+	at android.os.AsyncTask$SerialExecutor$1.run(AsyncTask.java:234)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1113)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:588)
+	at java.lang.Thread.run(Thread.java:818)
+
+2018-01-24 03:34:27 ---- java.lang.NullPointerException: Attempt to invoke virtual method 'void usbserial.util.SerialInputOutputManager.writeAsync(byte[])' on a null object reference
+	at msense.homepages.HomeActivity.htmlpagecodehandler(HomeActivity.java:1159)
+	at msense.homepages.HomeActivity.access$1900(HomeActivity.java:73)
+	at msense.homepages.HomeActivity$htmlkeycodehandler_task.doInBackground(HomeActivity.java:1061)
+	at msense.homepages.HomeActivity$htmlkeycodehandler_task.doInBackground(HomeActivity.java:1052)
+	at android.os.AsyncTask$2.call(AsyncTask.java:295)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+	at android.os.AsyncTask$SerialExecutor$1.run(AsyncTask.java:234)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1113)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:588)
+	at java.lang.Thread.run(Thread.java:818)
+
+2018-01-24 03:34:28 ---- Key press event happend less than 300 milli sec ..
+2018-01-24 03:34:28 ---- java.lang.NullPointerException: Attempt to invoke virtual method 'void usbserial.util.SerialInputOutputManager.writeAsync(byte[])' on a null object reference
+	at msense.homepages.HomeActivity.htmlpagecodehandler(HomeActivity.java:1159)
+	at msense.homepages.HomeActivity.access$1900(HomeActivity.java:73)
+	at msense.homepages.HomeActivity$htmlkeycodehandler_task.doInBackground(HomeActivity.java:1061)
+	at msense.homepages.HomeActivity$htmlkeycodehandler_task.doInBackground(HomeActivity.java:1052)
+	at android.os.AsyncTask$2.call(AsyncTask.java:295)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+	at android.os.AsyncTask$SerialExecutor$1.run(AsyncTask.java:234)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1113)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:588)
+	at java.lang.Thread.run(Thread.java:818)
+
+2018-01-24 03:34:30 ---- java.lang.NullPointerException: Attempt to invoke virtual method 'void usbserial.util.SerialInputOutputManager.writeAsync(byte[])' on a null object reference
+	at msense.homepages.HomeActivity.setfixsoundontv(HomeActivity.java:1692)
+	at msense.homepages.HomeActivity.access$1400(HomeActivity.java:73)
+	at msense.homepages.HomeActivity$JsInterface_homescreen_activity.volumeListener(HomeActivity.java:1034)
+	at org.chromium.base.SystemMessageHandler.nativeDoRunLoopOnce(Native Method)
+	at org.chromium.base.SystemMessageHandler.handleMessage(SystemMessageHandler.java:53)
+	at android.os.Handler.dispatchMessage(Handler.java:102)
+	at android.os.Looper.loop(Looper.java:148)
+	at android.os.HandlerThread.run(HandlerThread.java:61)
+
+2018-01-24 03:34:33 ---- java.lang.NullPointerException: Attempt to invoke virtual method 'void usbserial.util.SerialInputOutputManager.writeAsync(byte[])' on a null object reference
+	at msense.homepages.HomeActivity.htmlpagecodehandler(HomeActivity.java:1159)
+	at msense.homepages.HomeActivity.access$1900(HomeActivity.java:73)
+	at msense.homepages.HomeActivity$htmlkeycodehandler_task.doInBackground(HomeActivity.java:1061)
+	at msense.homepages.HomeActivity$htmlkeycodehandler_task.doInBackground(HomeActivity.java:1052)
+	at android.os.AsyncTask$2.call(AsyncTask.java:295)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+	at android.os.AsyncTask$SerialExecutor$1.run(AsyncTask.java:234)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1113)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:588)
+	at java.lang.Thread.run(Thread.java:818)
+
+2018-01-24 03:34:34 ---- java.lang.NullPointerException: Attempt to invoke virtual method 'void usbserial.util.SerialInputOutputManager.writeAsync(byte[])' on a null object reference
+	at msense.homepages.HomeActivity.htmlpagecodehandler(HomeActivity.java:1159)
+	at msense.homepages.HomeActivity.access$1900(HomeActivity.java:73)
+	at msense.homepages.HomeActivity$htmlkeycodehandler_task.doInBackground(HomeActivity.java:1061)
+	at msense.homepages.HomeActivity$htmlkeycodehandler_task.doInBackground(HomeActivity.java:1052)
+	at android.os.AsyncTask$2.call(AsyncTask.java:295)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+	at android.os.AsyncTask$SerialExecutor$1.run(AsyncTask.java:234)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1113)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:588)
+	at java.lang.Thread.run(Thread.java:818)
+
+2018-01-24 03:34:34 ---- java.lang.NullPointerException: Attempt to invoke virtual method 'void usbserial.util.SerialInputOutputManager.writeAsync(byte[])' on a null object reference
+	at msense.homepages.HomeActivity.htmlpagecodehandler(HomeActivity.java:1159)
+	at msense.homepages.HomeActivity.access$1900(HomeActivity.java:73)
+	at msense.homepages.HomeActivity$htmlkeycodehandler_task.doInBackground(HomeActivity.java:1061)
+	at msense.homepages.HomeActivity$htmlkeycodehandler_task.doInBackground(HomeActivity.java:1052)
+	at android.os.AsyncTask$2.call(AsyncTask.java:295)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+	at android.os.AsyncTask$SerialExecutor$1.run(AsyncTask.java:234)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1113)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:588)
+	at java.lang.Thread.run(Thread.java:818)
+
+2018-01-24 03:34:36 ---- OTT BOOT_COMPLETED
+2018-01-24 03:35:18 ---- null
+2018-01-24 03:35:18 ---- java.lang.NullPointerException: Attempt to invoke virtual method 'int java.lang.String.length()' on a null object reference
+	at libcore.net.UriCodec.encode(UriCodec.java:132)
+	at java.net.URLEncoder.encode(URLEncoder.java:57)
+	at com.mspl.com.hotelithaca.Cls_logger$SendPostRequest.doInBackground(Cls_logger.java:138)
+	at com.mspl.com.hotelithaca.Cls_logger$SendPostRequest.doInBackground(Cls_logger.java:123)
+	at android.os.AsyncTask$2.call(AsyncTask.java:295)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+	at android.os.AsyncTask$SerialExecutor$1.run(AsyncTask.java:234)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1113)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:588)
+	at java.lang.Thread.run(Thread.java:818)
+
+2018-01-24 03:35:26 ---- null
+2018-01-24 03:35:26 ---- java.lang.NullPointerException: Attempt to invoke virtual method 'int java.lang.String.length()' on a null object reference
+	at libcore.net.UriCodec.encode(UriCodec.java:132)
+	at java.net.URLEncoder.encode(URLEncoder.java:57)
+	at com.mspl.com.hotelithaca.Cls_logger$SendPostRequest.doInBackground(Cls_logger.java:138)
+	at com.mspl.com.hotelithaca.Cls_logger$SendPostRequest.doInBackground(Cls_logger.java:123)
+	at android.os.AsyncTask$2.call(AsyncTask.java:295)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+	at android.os.AsyncTask$SerialExecutor$1.run(AsyncTask.java:234)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1113)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:588)
+	at java.lang.Thread.run(Thread.java:818)
+
+2018-01-24 04:02:51 ---- OTT BOOT_COMPLETED
+2018-01-24 04:02:59 ---- null
+2018-01-24 04:02:59 ---- java.lang.NullPointerException: Attempt to invoke virtual method 'int java.lang.String.length()' on a null object reference
+	at libcore.net.UriCodec.encode(UriCodec.java:132)
+	at java.net.URLEncoder.encode(URLEncoder.java:57)
+	at com.mspl.com.hotelithaca.Cls_logger$SendPostRequest.doInBackground(Cls_logger.java:138)
+	at com.mspl.com.hotelithaca.Cls_logger$SendPostRequest.doInBackground(Cls_logger.java:123)
+	at android.os.AsyncTask$2.call(AsyncTask.java:295)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+	at android.os.AsyncTask$SerialExecutor$1.run(AsyncTask.java:234)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1113)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:588)
+	at java.lang.Thread.run(Thread.java:818)
+
+2018-01-24 04:03:14 ---- null
+2018-01-24 04:03:14 ---- java.lang.NullPointerException: Attempt to invoke virtual method 'int java.lang.String.length()' on a null object reference
+	at libcore.net.UriCodec.encode(UriCodec.java:132)
+	at java.net.URLEncoder.encode(URLEncoder.java:57)
+	at com.mspl.com.hotelithaca.Cls_logger$SendPostRequest.doInBackground(Cls_logger.java:138)
+	at com.mspl.com.hotelithaca.Cls_logger$SendPostRequest.doInBackground(Cls_logger.java:123)
+	at android.os.AsyncTask$2.call(AsyncTask.java:295)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+	at android.os.AsyncTask$SerialExecutor$1.run(AsyncTask.java:234)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1113)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:588)
+	at java.lang.Thread.run(Thread.java:818)
+
+2018-01-24 04:04:38 ---- Activity oncreate executed
+2018-01-24 04:04:38 ---- Please insert the USB to TV connector
+2018-01-24 04:04:40 ---- Page load http://172.16.63.11/Ithaca/index.html successfully
+2018-01-24 04:04:55 ---- OTT BOOT_COMPLETED
+2018-01-24 04:05:38 ---- null
+2018-01-24 04:05:38 ---- java.lang.NullPointerException: Attempt to invoke virtual method 'int java.lang.String.length()' on a null object reference
+	at libcore.net.UriCodec.encode(UriCodec.java:132)
+	at java.net.URLEncoder.encode(URLEncoder.java:57)
+	at com.mspl.com.hotelithaca.Cls_logger$SendPostRequest.doInBackground(Cls_logger.java:138)
+	at com.mspl.com.hotelithaca.Cls_logger$SendPostRequest.doInBackground(Cls_logger.java:123)
+	at android.os.AsyncTask$2.call(AsyncTask.java:295)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+	at android.os.AsyncTask$SerialExecutor$1.run(AsyncTask.java:234)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1113)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:588)
+	at java.lang.Thread.run(Thread.java:818)
+
+2018-01-24 04:05:46 ---- null
+2018-01-24 04:05:46 ---- java.lang.NullPointerException: Attempt to invoke virtual method 'int java.lang.String.length()' on a null object reference
+	at libcore.net.UriCodec.encode(UriCodec.java:132)
+	at java.net.URLEncoder.encode(URLEncoder.java:57)
+	at com.mspl.com.hotelithaca.Cls_logger$SendPostRequest.doInBackground(Cls_logger.java:138)
+	at com.mspl.com.hotelithaca.Cls_logger$SendPostRequest.doInBackground(Cls_logger.java:123)
+	at android.os.AsyncTask$2.call(AsyncTask.java:295)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+	at android.os.AsyncTask$SerialExecutor$1.run(AsyncTask.java:234)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1113)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:588)
+	at java.lang.Thread.run(Thread.java:818)
+
+2018-01-24 04:06:35 ---- Activity oncreate executed
+2018-01-24 04:06:35 ---- Starting io manager ..
+2018-01-24 04:06:43 ---- Page load http://172.16.63.148/Ithaca-old/index.html successfully
+2018-01-24 04:06:53 ---- Cmd sent tv
+2018-01-24 04:06:53 ---- 08220A000000CC
+2018-01-24 04:06:53 ---- 030CF1
+2018-01-24 04:06:54 ---- Cmd sent 20
+2018-01-24 04:06:54 ---- 08220100000ACB
+2018-01-24 04:06:54 ---- 030CF1
+2018-01-24 04:07:36 ---- Activity oncreate executed
+2018-01-24 04:07:36 ---- Please insert the USB to TV connector
+2018-01-24 04:07:39 ---- Page load http://172.16.63.148/Ithaca-old/index.html successfully
+2018-01-24 04:07:49 ---- java.lang.NullPointerException: Attempt to invoke virtual method 'void usbserial.util.SerialInputOutputManager.writeAsync(byte[])' on a null object reference
+	at msense.homepages.HomeActivity.htmlpagecodehandler(HomeActivity.java:1165)
+	at msense.homepages.HomeActivity.access$1900(HomeActivity.java:75)
+	at msense.homepages.HomeActivity$htmlkeycodehandler_task.doInBackground(HomeActivity.java:1066)
+	at msense.homepages.HomeActivity$htmlkeycodehandler_task.doInBackground(HomeActivity.java:1057)
+	at android.os.AsyncTask$2.call(AsyncTask.java:295)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+	at android.os.AsyncTask$SerialExecutor$1.run(AsyncTask.java:234)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1113)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:588)
+	at java.lang.Thread.run(Thread.java:818)
+
+2018-01-24 04:07:54 ---- OTT BOOT_COMPLETED
+2018-01-24 04:08:36 ---- adb offlie check

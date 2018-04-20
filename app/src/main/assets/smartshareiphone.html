@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>UI Finder</title>
+    <link href="css/styletransparent.css" rel="stylesheet" media="screen">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+   
+	<link href="css/scrn.css" rel="stylesheet" type="text/css" />
+    <link href="fonts/fonts.css" rel="stylesheet" type="text/css" />
+
+
+	<script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+	<!-- Common widget API -->
+	
+	<script type="text/javascript" src="js/tvurl_capture_query.js"></script>
+	<script type="text/javascript">var elementcount = 1;</script>
+	
+	 <!-- Plugins --> 
+	 
+	 <style type="text/css">
+	
+	    #support_wrapper{ width:400px; position:absolute;
+						height:550px; 
+						background:#fff; 
+						padding:0px 30px 0px 30px; 
+						top:10px;
+						bottom:20px;
+						right:200px;
+						border-radius: 10px 10px 10px 10px;
+					    z-index:9999;
+						opacity: .8;
+					 }
+ 
+    #support_wrapper p{ font-family: 'Roboto', sans-serif; font-size:22px; text-align:left;
+				margin-top:10px;}
+				
+    #support_wrapper img{ 
+	 			margin-right:200px;
+				top:90px;}
+				
+		a {
+   			outline: none;
+		}
+    
+ 
+	   </style> 
+	
+    <meta>
+</head>
+<body>
+    <div id="banner">  
+	
+		
+	<!-- alarm start -->	
+	<div id="support_wrapper">
+    		
+    	<!--	<p>
+    			<strong style="color:blue;">Stream your audio and video from your iOS device </strong><br>
+				1)	Open Airplay on your iPHONE  / iPAD<br>
+			2)	Connect WiFi to SSID "Mi-Fi-2Ghz"  Password "12345678"<br>
+3)	Select client device, it asks password <br>
+4)	Enter the password <strong>"12345" </strong> to sync <br>
+5)	Open audio / video files,  it will be streamed on TV<br>
+6)	If you want to disconnect  , untick device name under Airplay<br>
+
+
+			</p> 
+    	<img src="images/smartshare1.jpg" /> -->
+		<div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 scrn_wrapper">
+                <h1>
+                    
+                    Screen Mirroring
+                    <div class="scrn_img">
+                        <img src="images/scrn_icon.png" />
+                    </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 scrn_contents ">
+                <h1>
+                    Display content from your mobile device on the TV screen.
+                </h1>
+                <ul>
+                    <li><span class="num">1</span><span class="listitem">Connect your mobile device to Wi-Fi ssid</span></li>
+                    <li><span class="num">2</span><span class="listitem">Locate and Launch "Airplay" in by drag menu from bottom </span></li>
+                    <li><span class="num">3</span><span class="listitem">Select "Room <span id="idroom"></span>" , then enter password "<span id="idpwd"></span>" to do screen mirror</span></li>
+                    <li><span class="num">4</span><span class="listitem">Click "DISCONNECT" button to disconnect</span></li>
+                </ul>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 scrn_contents note_info ">
+              Note : If Airplay is not available , the device is not compatible. 
+            </div>
+        </div>
+    </div>
+		</div>
+	<!-- alarm end -->  
+        <div id="Hotel_photo2_pannel">
+        <div class="header">
+            <div class="logo_detail">
+                <img src="images/Hotel_Logo.png">
+                <div id="spkmsg">
+                </div>
+            </div>
+           
+          </div>
+        </div>
+        <div id="menu_pannel_bg">
+            <div class="middle_pannel">                
+                <div id="menuitemN">
+                  <a id="0" class="itemN" href="#" onClick="appsonclick('Android');"><span class="centertabtxt">Android</span></a>              
+                </div>                
+                <div id="menuitemN">
+                   <a id="1" class="itemN" href="#" onClick="appsonclick('iPhone');"><span class="centertabtxtihpone">iPhone<br>iPad</span></a>
+                </div>
+				<div id="menuitemN">
+                    <a id="2" class="itemN" href="#" onClick="appsonclick('Laptop');"><span class="centertabtxt">Laptop</span></a>
+                       
+                </div>  
+              
+            </div>
+        </div>
+        <div class="bottom_pannel" style="table-layout: fixed; height: 40px; !important">
+            <div class="bottom_pannel_right">
+        	<div class="btn"> <img src="images/return.png"> </div>
+			<div class="footer_nav_text">Return</div>		
+                <div class="btn">
+                    <img src="images/arrow_prev.png">
+                    <img src="images/arrow_next.png">
+                </div>
+                <div class="footer_nav_text">
+                    Left/Right
+                </div>
+                <div class="btn">
+                    <img src="images/ok.png">
+                </div>
+                <div class="footer_nav_text">
+                    Select</div>
+            </div>
+			<div class="bottom_pannel_left">                   
+                         <span class="date_display"> </span>              
+             </div>
+        </div>
+    </div>
+ 
+</body>
+
+
+	
+	<script type="text/javascript" src="js/smartshare_keyevent_handler.js"></script>
+
+ 	<script type='text/javascript' language='javascript'>
+	
+	 window.onerror = function(msg, url, linenumber){
+            // alert('Error message: '+msg+'\nURL: '+url+'\nLine Number: '+linenumber); 
+			 //document.getElementById("test").innerHTML+="<br> Error message: "+msg+"\nURL: "+url+"\nLine Number: "+linenumber;
+        }
+	 $(document).ready(function () {
+       		setInterval('fngetLocalTimemain()', 1000);
+			//getroomandpwd();
+        });	
+	function bckbtnpressed()
+	{
+	
+			window.location = "index.html?fromurl=smart";	
+		
+	}	
+	function homepageshowing()
+	{
+		window.location = "index.html?fromurl=smart";
+		
+	}
+	//LG TV Get LocalTime information
+	function fngetLocalTimemain() {	
+	
+			var currentTimeString = new Date();
+			var datesplit=currentTimeString.toString().split(" ");
+			var dstr=formatAMPM(currentTimeString);		
+			$('.date_display').text(datesplit[0]+ " " +datesplit[1]+ " " +datesplit[2]+ " " +datesplit[3]+ "  " +dstr);
+	}	
+	
+		/* JS function to convert AM/PM) */
+	function formatAMPM(date) {
+	  var hours = date.getHours();
+	  var minutes = date.getMinutes();
+	  var ampm = hours >= 12 ? 'PM' : 'AM';
+	  hours = hours % 12;
+	  hours = hours ? hours : 12; // the hour '0' should be '12'
+	  minutes = minutes < 10 ? '0'+minutes : minutes;
+	  var strTime = hours + ':' + minutes + ' ' + ampm;
+	  return strTime;
+	}
+	$('.itemN').mouseover(function(){      
+           $(".middle_pannel a").removeClass("test123");
+           elementcount = $(this).attr("ID");
+           $('#'+elementcount).addClass("test123");
+           if(elementcount=="0"){
+               window.location = "smartshare.html";
+            }else if(elementcount=="1"){
+               window.location = "smartshareiphone.html";
+            }else{
+               window.location = "smartsharelaptop.html";
+            }
+});
+
+	$( "#banner" ).click(function() {			
+			var levelName = $(".middle_pannel .centertabtxt").eq(elementcount).text();
+			levelName =levelName.trim();
+			
+			appsonclick(levelName);
+			console.log("banner clicked " + levelName);
+		});	
+
+		function getroomandpwd(){
+            //alert('return sent');
+			var myarray;
+            $.ajax({
+                type: "POST",
+                url: "retrieveairpin.php",
+               
+               success: function(data) {
+				  // alert(data); // apple
+				  myarray = data.split(',');
+				  $("#idroom").text(myarray[0]);
+				  $("#idpwd").text(myarray[1]);
+				
+				}
+            });
+        }
+
+
+		
+	</script>
+
+</html>

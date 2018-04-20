@@ -1,0 +1,64 @@
+﻿.htlm_wrapper{ background:url(../images/tbl_bg.png) repeat left top; overflow:hidden; width:90%; margin:0 auto;
+			               padding-left:10px; height:540px;}
+			
+			.txt_para{float: left; width: 600px; margin-top: 50px; color: #fff; padding:10px; padding-left:20px; border: solid 0px red; 
+			          font-family:Verdana; font-size:20px; font-style:normal; }
+			          
+			          .txt_para h1{ font-size:22px; border-bottom:solid 1px #248517; color:#4fe73b; padding-bottom:10px; text-transform:uppercase; letter-spacing:2px;}
+			          
+			          
+			          .amenities{ width:1120px !important; background:none !important;  }
+			          
+			         .middle_image_pannel_bg .amenities_txt{ color:#fff; width:610px; float:left; margin-left:10px;}
+			         
+			        .amenities_txt h2{ font-size:16px; margin-bottom:0px;}  
+			        
+			        .amenities_txt h3{font-size:14px; margin-bottom:0px; color:#ccc;}   
+			         
+			         
+			            .icon_set ul { margin:0px; padding:0px;}
+			         
+			         .icon_set ul li{ display:inline-block; list-style:none;  border:solid 0px red; width:100px; text-align:center; 
+			                          margin-left:5px; margin-right:5px; margin-top:8px;  margin-bottom:8px;}
+			         
+			          .icon_set ul li img{ width:40%}
+			         
+			         
+			            .icon_set ul li span{  font-size:12px; font-family:Verdana; display:block;}
+			         
+			         
+			           .middle_image_pannel_bg .amenities_txt h1{ font-size:20px; border-bottom:solid 1px #248517; color:#4fe73b; padding-bottom:10px;}
+
+		 .middle_image_pannel_bg .amenities_txt p{color: #fff;  font-family:Verdana; font-size:18px;}
+		 
+		 
+		 
+		 .logo_detail{ padding-left:40px; padding-bottom:5px; padding-top:5px;}
+		 
+		 .middle_image_pannel_details{ 
+			float:left;			
+			margin: 10PX auto auto 0px;				
+    						
+			padding: 0px 0px 0px 0px;
+			}
+		 
+		.middle_image_pannel_bg{ 
+			
+			float:left;
+			margin: 10PX auto;			
+			background:#000000;	
+			padding: 0px 10px 0px 0px;
+			width:483px;
+			opacity:0.9;
+			
+			}
+			
+			
+				#banner_tiqri
+	{
+		overflow: hidden;
+		background: url(../images/foods.png) no-repeat; 		
+		height:720px;
+		width:1280px;
+
+	}

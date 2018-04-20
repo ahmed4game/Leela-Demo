@@ -1,0 +1,446 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Dinning</title>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    
+    <link href="css/style-tri.css" rel="stylesheet" media="screen">
+    <link href="css/swipestyle-1.css" type="text/css" rel="stylesheet" />
+    <link href="css/jquery.bxslider.css" rel="stylesheet" />
+    
+    <link href="css/about_us.css" rel="stylesheet" type="text/css" />
+
+    <script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+	<script type="text/javascript" src="js/tvurl_capture_query.js"></script>
+	
+<style>
+	 /* WEATHER STYLE */@font-face
+        {
+            font-family: 'weather';
+            src: url( 'fonts/93/artill_clean_icons-webfont.eot' );
+            src: url( 'fonts/artill_clean_icons-webfont.eot?#iefix' ) format( 'embedded-opentype' ), url( 'fonts/artill_clean_icons-webfont.woff' ) format( 'woff' ), url( 'fonts/artill_clean_icons-webfont.ttf' ) format( 'truetype' ), url( 'fonts/artill_clean_icons-webfont.svg#artill_clean_weather_iconsRg' ) format( 'svg' );
+            font-weight: normal;
+            font-style: normal;
+        }
+        #weather
+        {
+            margin: 0px auto;
+            text-align: center;
+            text-transform: uppercase;
+        }
+        /*	i {
+		  color: #fff;
+		  font-family: weather;
+		  font-size: 90px;
+		  font-weight: normal;
+		  font-style: normal;
+		  line-height: 1.0;
+		} */.icon-0:before
+        {
+            content: ":";
+        }
+        .icon-1:before
+        {
+            content: "p";
+        }
+        .icon-2:before
+        {
+            content: "S";
+        }
+        .icon-3:before
+        {
+            content: "Q";
+        }
+        .icon-4:before
+        {
+            content: "S";
+        }
+        .icon-5:before
+        {
+            content: "W";
+        }
+        .icon-6:before
+        {
+            content: "W";
+        }
+        .icon-7:before
+        {
+            content: "W";
+        }
+        .icon-8:before
+        {
+            content: "W";
+        }
+        .icon-9:before
+        {
+            content: "I";
+        }
+        .icon-10:before
+        {
+            content: "W";
+        }
+        .icon-11:before
+        {
+            content: "I";
+        }
+        .icon-12:before
+        {
+            content: "I";
+        }
+        .icon-13:before
+        {
+            content: "I";
+        }
+        .icon-14:before
+        {
+            content: "I";
+        }
+        .icon-15:before
+        {
+            content: "W";
+        }
+        .icon-16:before
+        {
+            content: "I";
+        }
+        .icon-17:before
+        {
+            content: "W";
+        }
+        .icon-18:before
+        {
+            content: "U";
+        }
+        .icon-19:before
+        {
+            content: "Z";
+        }
+        .icon-20:before
+        {
+            content: "Z";
+        }
+        .icon-21:before
+        {
+            content: "Z";
+        }
+        .icon-22:before
+        {
+            content: "Z";
+        }
+        .icon-23:before
+        {
+            content: "Z";
+        }
+        .icon-24:before
+        {
+            content: "E";
+        }
+        .icon-25:before
+        {
+            content: "E";
+        }
+        .icon-26:before
+        {
+            content: "3";
+        }
+        .icon-27:before
+        {
+            content: "a";
+        }
+        .icon-28:before
+        {
+            content: "A";
+        }
+        .icon-29:before
+        {
+            content: "a";
+        }
+        .icon-30:before
+        {
+            content: "A";
+        }
+        .icon-31:before
+        {
+            content: "6";
+        }
+        .icon-32:before
+        {
+            content: "1";
+        }
+        .icon-33:before
+        {
+            content: "6";
+        }
+        .icon-34:before
+        {
+            content: "1";
+        }
+        .icon-35:before
+        {
+            content: "W";
+        }
+        .icon-36:before
+        {
+            content: "1";
+        }
+        .icon-37:before
+        {
+            content: "S";
+        }
+        .icon-38:before
+        {
+            content: "S";
+        }
+        .icon-39:before
+        {
+            content: "S";
+        }
+        .icon-40:before
+        {
+            content: "M";
+        }
+        .icon-41:before
+        {
+            content: "W";
+        }
+        .icon-42:before
+        {
+            content: "I";
+        }
+        .icon-43:before
+        {
+            content: "W";
+
+        }
+        .icon-44:before
+        {
+            content: "a";
+        }
+        .icon-45:before
+        {
+            content: "S";
+        }
+        .icon-46:before
+        {
+            content: "U";
+        }
+        .icon-47:before
+        {
+            content: "S";
+        }
+        #weather h2
+        {
+            margin: 0 0 0px;
+            color: #fff;
+            font-size: 35px;
+            padding-bottom: 0px;
+            font-weight: 300;
+            text-align: center;
+            text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.15);
+        }
+        #weather ul
+        {
+            margin: 0;
+            padding: 0;
+        }
+        #weather li
+        {
+            font-size: 18px;
+            padding: 0px;
+            display: inline-block;
+            border-radius: 5px;
+            color: #fff;
+        }
+        #weather li:nth-child(2)
+        {
+            display: none;
+        }
+        #weather li:nth-child(3)
+        {
+            display: none;
+        }
+        #weather .currently
+        {
+            margin: 0 20px;
+        }
+        button
+        {
+            display: block;
+            margin: 15px auto;
+            width: 140px;
+            padding: 5px;
+            background: transparent;
+            color: #fff;
+            border: 0;
+            border-radius: 5px;
+        }
+        /* WEATHER STYLE END*/
+		</style>
+    <meta>
+</head>
+<body>
+    <div id="banner_tiqri">
+        <!-- Message Management -->
+       
+        <!-- End promotion message -->
+        <div id="tiqri_service_photo">
+            <div class="logo_detail">
+                <img src="images/Hotel_Logo.png" />
+                <!-- style='width:130px;height:100px;' -->
+            </div>
+             <!-- Weather start-->
+                <div style="float: left; width: 220px; position: absolute; top: 15px; right: 40px;
+                    border: solid 0px red; z-index: 9999;">
+                    <div id="weather">
+                    </div>
+                    <button class="js-geolocation" style="display: none;">
+                        Use Your Location</button>
+                </div>
+                <!-- Weather end-->
+            <div class="htlm_wrapper">
+                <div class="middle_image_pannel_details">
+                    <div class="middle_image_pannel_bg">
+                        <div id='slider' class='swipe'>
+                            <div class='swipe-wrap'>
+                                <div>
+                                    <div class="middle_image_pannel_photo">
+                                        <img src="images/Dinning1.png">
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="middle_image_pannel_photo">
+                                        <img src="images/Dinning2.png">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="counter content" style='text-align: center; padding-top: 10px;'>
+                        <ul id='position'>
+                            <li class="on"></li>
+                            <li></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="txt_para">
+                    <h1>
+                        Dining</h1>
+                    <p>
+                        Max's Classic American Grill
+                    </p>
+                    <p>
+                        Dining in classic American style
+                    </p>
+                    <ul>
+                        <li>Delicious Dinners</li>
+                        <li>Thick Juicy Burgers</li>
+                        <li>Dinner</li>
+                    </ul>
+                    <p>
+                        Max's serves breakfast, lunch and dinner daily.
+                    </p>
+                    <p>
+                        Ask about our frequent diner programs and our kids club.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="bottom_pannel" style="table-layout: fixed; height: 40px; !important">
+        <div class="bottom_pannel_right">
+            <div class="btn">
+                <img src="images/arrow_prev.png">
+                <img src="images/arrow_next.png">
+            </div>
+            <div class="footer_nav_text">
+                Previous/Next
+            </div>
+            <div class="btn">
+                <img src="images/return.png">
+            </div>
+            <div class="footer_nav_text">
+                Return</div>
+        </div>
+        <div class="bottom_pannel_left">
+            <span class="date_display"></span>        </div>
+    </div>
+    </div>
+</body>
+<script type="text/javascript" src="js/general_keyevent_handler.js"></script>
+	<script type="text/javascript" src="js/buzz.js"></script>
+	<script type="text/javascript" src='js/jquery.simpleWeather.js'></script>
+<script src='js/swipe.js'></script>
+
+<script src='js/myjs.js'></script>
+
+<script type="text/javascript">
+function fn_mainload () {
+ $('#MainPage_Anchor').focus();
+}
+ $(document).ready(function () {
+       		setInterval('fngetLocalTimemain()', 1000);
+			//fngetweather1();
+        });
+function autoScroll(scrollControl){
+if(scrollControl){
+if (((document.getElementById('middle_image_pannel_title').scrollHeight*1) ||
+(document.getElementById('middle_image_pannel_title').scrollTop*1)) ||
+document.getElementById('middle_image_pannel_title').offsetHeight) { //confronta con altezza del div
+document.getElementById('middle_image_pannel_title').scrollTop = (document.getElementById('middle_image_pannel_title').scrollTop*1) + 3;
+setTimeout('autoScroll(scrollControl)',30); // si esegue nuovamente dopo 30ms
+}
+}
+}
+	function bckbtnpressed()
+	{
+		window.location = "hotelinfo.html?fromurl=dinning";	
+	}	
+	function homepageshowing()
+	{
+		window.location = "index.html?fromurl=hinfo";
+		
+	}
+	//LG TV Get LocalTime information
+	function fngetLocalTimemain() {
+
+			var currentTimeString = new Date();
+			var datesplit=currentTimeString.toString().split(" ");
+			var dstr=formatAMPM(currentTimeString);
+			$('.date_display').text(datesplit[0]+ " " +datesplit[1]+ " " +datesplit[2]+ " " +datesplit[3]+ "  " +dstr);
+	}
+
+		/* JS function to convert AM/PM) */
+	function formatAMPM(date) {
+	  var hours = date.getHours();
+	  var minutes = date.getMinutes();
+	  var ampm = hours >= 12 ? 'PM' : 'AM';
+	  hours = hours % 12;
+	  hours = hours ? hours : 12; // the hour '0' should be '12'
+	  minutes = minutes < 10 ? '0'+minutes : minutes;
+	  var strTime = hours + ':' + minutes + ' ' + ampm;
+	  return strTime;
+	}		
+	
+function fngetweather1() {
+
+	$.simpleWeather({
+    location: 'New York',
+    woeid: '',
+    unit: 'c',
+    success: function(weather) {
+      html = '<h2><i></i> '+weather.temp+'&deg;'+weather.units.temp+'</h2>';
+      html += '<ul><li>'+weather.city+'</li>';
+      html += '<li class="currently">'+weather.currently+'</li>';
+      html += '<li>'+weather.wind.direction+' '+weather.wind.speed+' '+weather.units.speed+'</li></ul>';
+
+      $("#weather").html(html);
+    },
+    error: function(error) {
+      $("#weather").html('<p>'+error+'</p>');
+    }
+  });
+
+}
+</script>
+
+</html>

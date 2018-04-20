@@ -1,0 +1,168 @@
+2018-01-24 04:17:50 ---- Activity oncreate executed
+2018-01-24 04:17:50 ---- Please insert the USB to TV connector
+2018-01-24 04:17:52 ---- Page load http://172.16.63.11/Ithaca/index.html successfully
+2018-01-24 04:17:55 ---- Please insert the USB to TV connector
+2018-01-24 04:18:01 ---- Starting io manager ..
+2018-01-24 04:18:07 ---- OTT BOOT_COMPLETED
+2018-01-24 04:18:50 ---- Cmd sent picmode
+2018-01-24 04:18:50 ---- adb offlie check
+2018-01-24 04:18:50 ---- 08220D00006168
+2018-01-24 04:18:51 ---- 030CF1
+2018-01-24 04:18:55 ---- Cmd sent tv
+2018-01-24 04:18:55 ---- 08220A000000CC
+2018-01-24 04:18:55 ---- 030CF1
+2018-01-24 04:18:56 ---- Cmd sent 20
+2018-01-24 04:18:56 ---- 08220100000ACB
+2018-01-24 04:18:56 ---- 030CF1
+2018-01-24 04:19:35 ---- Cmd sent home
+2018-01-24 04:19:35 ---- 08220A000500C7
+2018-01-24 04:19:35 ---- 030CF1
+2018-01-24 04:19:36 ---- Cmd sent 50
+2018-01-24 04:19:37 ---- 082201000032A3
+2018-01-24 04:19:37 ---- 030CF1
+2018-01-24 04:20:16 ---- Cmd sent tv
+2018-01-24 04:20:19 ---- Cmd sent mute
+2018-01-24 04:20:20 ---- Cmd sent tv
+2018-01-24 04:20:20 ---- Cmd sent tv
+2018-01-24 04:20:21 ---- Key press event happend less than 300 milli sec ..
+2018-01-24 04:20:21 ---- Cmd sent tv
+2018-01-24 04:20:21 ---- Key press event happend less than 300 milli sec ..
+2018-01-24 04:20:21 ---- Cmd sent tv
+2018-01-24 04:20:22 ---- Key press event happend less than 300 milli sec ..
+2018-01-24 04:20:22 ---- Cmd sent tv
+2018-01-24 04:20:22 ---- Key press event happend less than 300 milli sec ..
+2018-01-24 04:20:23 ---- Cmd sent tv
+2018-01-24 04:20:23 ---- Key press event happend less than 300 milli sec ..
+2018-01-24 04:20:23 ---- Cmd sent tv
+2018-01-24 04:20:24 ---- Cmd sent tv
+2018-01-24 04:20:24 ---- Key press event happend less than 300 milli sec ..
+2018-01-24 04:20:24 ---- Cmd sent tv
+2018-01-24 04:20:24 ---- Cmd sent tv
+2018-01-24 04:20:25 ---- Key press event happend less than 300 milli sec ..
+2018-01-24 04:20:25 ---- Cmd sent mute
+2018-01-24 04:20:27 ---- Cmd sent tv
+2018-01-24 04:20:27 ---- Key press event happend less than 300 milli sec ..
+2018-01-24 04:20:27 ---- Cmd sent tv
+2018-01-24 04:20:27 ---- Key press event happend less than 300 milli sec ..
+2018-01-24 04:20:27 ---- Cmd sent tv
+2018-01-24 04:20:28 ---- Key press event happend less than 300 milli sec ..
+2018-01-24 04:20:28 ---- Cmd sent tv
+2018-01-24 04:20:28 ---- Key press event happend less than 300 milli sec ..
+2018-01-24 04:20:30 ---- Cmd sent tv
+2018-01-24 04:20:30 ---- Key press event happend less than 300 milli sec ..
+2018-01-24 04:20:31 ---- Cmd sent tv
+2018-01-24 04:20:31 ---- Key press event happend less than 300 milli sec ..
+2018-01-24 04:20:31 ---- Cmd sent tv
+2018-01-24 04:20:33 ---- Cmd sent tv
+2018-01-24 04:20:34 ---- Cmd sent tv
+2018-01-24 04:20:35 ---- Cmd sent tv
+2018-01-24 04:20:35 ---- Cmd sent tv
+2018-01-24 04:22:50 ---- Cmd sent picmode
+2018-01-24 04:22:51 ---- USB NOT WORKING
+2018-01-24 04:23:50 ---- adb offlie check
+2018-01-24 04:26:50 ---- Cmd sent picmode
+2018-01-24 04:26:51 ---- USB NOT WORKING
+2018-01-24 04:28:50 ---- adb offlie check
+2018-01-24 04:28:58 ---- Activity oncreate executed
+2018-01-24 04:28:58 ---- Starting io manager ..
+2018-01-24 04:29:00 ---- Page load http://172.16.63.11/Ithaca/index.html successfully
+2018-01-24 04:29:58 ---- Cmd sent picmode
+2018-01-24 04:29:58 ---- adb offlie check
+2018-01-24 04:29:59 ---- USB NOT WORKING
+2018-01-24 04:30:04 ---- Cmd sent tv
+2018-01-24 04:30:06 ---- Cmd sent mute
+2018-01-24 04:30:07 ---- Cmd sent tv
+2018-01-24 04:30:07 ---- Key press event happend less than 300 milli sec ..
+2018-01-24 04:30:07 ---- Cmd sent tv
+2018-01-24 04:30:07 ---- Cmd sent tv
+2018-01-24 04:30:08 ---- Key press event happend less than 300 milli sec ..
+2018-01-24 04:30:08 ---- Cmd sent tv
+2018-01-24 04:30:08 ---- Key press event happend less than 300 milli sec ..
+2018-01-24 04:30:08 ---- Cmd sent tv
+2018-01-24 04:30:10 ---- Cmd sent mute
+2018-01-24 04:30:10 ---- Cmd sent tv
+2018-01-24 04:30:11 ---- Cmd sent tv
+2018-01-24 04:30:11 ---- Key press event happend less than 300 milli sec ..
+2018-01-24 04:30:11 ---- Cmd sent tv
+2018-01-24 04:30:12 ---- Cmd sent tv
+2018-01-24 04:31:20 ---- Activity oncreate executed
+2018-01-24 04:31:20 ---- Please insert the USB to TV connector
+2018-01-24 04:31:22 ---- Page load http://172.16.63.11/Ithaca/index.html successfully
+2018-01-24 04:31:25 ---- Please insert the USB to TV connector
+2018-01-24 04:31:27 ---- java.lang.NullPointerException: Attempt to invoke virtual method 'void usbserial.util.SerialInputOutputManager.writeAsync(byte[])' on a null object reference
+	at msense.homepages.HomeActivity.htmlpagecodehandler(HomeActivity.java:1165)
+	at msense.homepages.HomeActivity.access$1900(HomeActivity.java:75)
+	at msense.homepages.HomeActivity$htmlkeycodehandler_task.doInBackground(HomeActivity.java:1066)
+	at msense.homepages.HomeActivity$htmlkeycodehandler_task.doInBackground(HomeActivity.java:1057)
+	at android.os.AsyncTask$2.call(AsyncTask.java:295)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+	at android.os.AsyncTask$SerialExecutor$1.run(AsyncTask.java:234)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1113)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:588)
+	at java.lang.Thread.run(Thread.java:818)
+
+2018-01-24 04:31:29 ---- java.lang.NullPointerException: Attempt to invoke virtual method 'void usbserial.util.SerialInputOutputManager.writeAsync(byte[])' on a null object reference
+	at msense.homepages.HomeActivity.setfixsoundontv(HomeActivity.java:1708)
+	at msense.homepages.HomeActivity.access$1300(HomeActivity.java:75)
+	at msense.homepages.HomeActivity$JsInterface_homescreen_activity.volumeListener(HomeActivity.java:1039)
+	at org.chromium.base.SystemMessageHandler.nativeDoRunLoopOnce(Native Method)
+	at org.chromium.base.SystemMessageHandler.handleMessage(SystemMessageHandler.java:53)
+	at android.os.Handler.dispatchMessage(Handler.java:102)
+	at android.os.Looper.loop(Looper.java:148)
+	at android.os.HandlerThread.run(HandlerThread.java:61)
+
+2018-01-24 04:31:30 ---- java.lang.NullPointerException: Attempt to invoke virtual method 'void usbserial.util.SerialInputOutputManager.writeAsync(byte[])' on a null object reference
+	at msense.homepages.HomeActivity.htmlpagecodehandler(HomeActivity.java:1165)
+	at msense.homepages.HomeActivity.access$1900(HomeActivity.java:75)
+	at msense.homepages.HomeActivity$htmlkeycodehandler_task.doInBackground(HomeActivity.java:1066)
+	at msense.homepages.HomeActivity$htmlkeycodehandler_task.doInBackground(HomeActivity.java:1057)
+	at android.os.AsyncTask$2.call(AsyncTask.java:295)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+	at android.os.AsyncTask$SerialExecutor$1.run(AsyncTask.java:234)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1113)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:588)
+	at java.lang.Thread.run(Thread.java:818)
+
+2018-01-24 04:31:30 ---- Key press event happend less than 300 milli sec ..
+2018-01-24 04:31:30 ---- java.lang.NullPointerException: Attempt to invoke virtual method 'void usbserial.util.SerialInputOutputManager.writeAsync(byte[])' on a null object reference
+	at msense.homepages.HomeActivity.htmlpagecodehandler(HomeActivity.java:1165)
+	at msense.homepages.HomeActivity.access$1900(HomeActivity.java:75)
+	at msense.homepages.HomeActivity$htmlkeycodehandler_task.doInBackground(HomeActivity.java:1066)
+	at msense.homepages.HomeActivity$htmlkeycodehandler_task.doInBackground(HomeActivity.java:1057)
+	at android.os.AsyncTask$2.call(AsyncTask.java:295)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+	at android.os.AsyncTask$SerialExecutor$1.run(AsyncTask.java:234)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1113)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:588)
+	at java.lang.Thread.run(Thread.java:818)
+
+2018-01-24 04:31:31 ---- Please insert the USB to TV connector
+2018-01-24 04:31:33 ---- java.lang.NullPointerException: Attempt to invoke virtual method 'void usbserial.util.SerialInputOutputManager.writeAsync(byte[])' on a null object reference
+	at msense.homepages.HomeActivity.htmlpagecodehandler(HomeActivity.java:1165)
+	at msense.homepages.HomeActivity.access$1900(HomeActivity.java:75)
+	at msense.homepages.HomeActivity$htmlkeycodehandler_task.doInBackground(HomeActivity.java:1066)
+	at msense.homepages.HomeActivity$htmlkeycodehandler_task.doInBackground(HomeActivity.java:1057)
+	at android.os.AsyncTask$2.call(AsyncTask.java:295)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+	at android.os.AsyncTask$SerialExecutor$1.run(AsyncTask.java:234)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1113)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:588)
+	at java.lang.Thread.run(Thread.java:818)
+
+2018-01-24 04:31:33 ---- Key press event happend less than 300 milli sec ..
+2018-01-24 04:31:36 ---- Please insert the USB to TV connector
+2018-01-24 04:31:41 ---- Please insert the USB to TV connector
+2018-01-24 04:31:46 ---- Please insert the USB to TV connector
+2018-01-24 04:31:51 ---- Please insert the USB to TV connector
+2018-01-24 04:32:28 ---- Activity oncreate executed
+2018-01-24 04:32:28 ---- Please insert the USB to TV connector
+2018-01-24 04:32:30 ---- Page load http://172.16.63.11/Ithaca/index.html successfully
+2018-01-24 04:32:33 ---- Starting io manager ..
+2018-01-24 04:32:35 ---- Cmd sent tv
+2018-01-24 04:32:36 ---- 08220A000000CC
+2018-01-24 04:32:36 ---- 030CF1
+2018-01-24 04:32:36 ---- Cmd sent ok
+2018-01-24 04:32:36 ---- 08220D00006861
+2018-01-24 04:32:36 ---- 030CF1
+2018-01-24 04:32:36 ---- Key press event happend less than 300 milli sec ..
+2018-01-24 04:32:43 ---- OTT BOOT_COMPLETED

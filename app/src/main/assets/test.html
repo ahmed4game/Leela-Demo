@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>UI Finder</title>
+    <link href="css/styletransparent.css" rel="stylesheet" media="screen">
+
+
+	<script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+	<!-- Common widget API -->
+
+	<script type="text/javascript" src="js/tvurl_capture_query.js"></script>
+
+	<style>
+	a {
+   		outline: none;
+	}
+	#spkmsg {color: #00FF00;}
+	
+	
+	 /* WEATHER STYLE */@font-face
+        {
+            font-family: 'weather';
+            src: url( 'fonts/93/artill_clean_icons-webfont.eot' );
+            src: url( 'fonts/artill_clean_icons-webfont.eot?#iefix' ) format( 'embedded-opentype' ), url( 'fonts/artill_clean_icons-webfont.woff' ) format( 'woff' ), url( 'fonts/artill_clean_icons-webfont.ttf' ) format( 'truetype' ), url( 'fonts/artill_clean_icons-webfont.svg#artill_clean_weather_iconsRg' ) format( 'svg' );
+            font-weight: normal;
+            font-style: normal;
+        }
+        #weather
+        {
+            margin: 0px auto;
+            text-align: center;
+            text-transform: uppercase;
+        }
+        /*	i {
+		  color: #fff;
+		  font-family: weather;
+		  font-size: 90px;
+		  font-weight: normal;
+		  font-style: normal;
+		  line-height: 1.0;
+		} */.icon-0:before
+        {
+            content: ":";
+        }
+        .icon-1:before
+        {
+            content: "p";
+        }
+        .icon-2:before
+        {
+            content: "S";
+        }
+        .icon-3:before
+        {
+            content: "Q";
+        }
+        .icon-4:before
+        {
+            content: "S";
+        }
+        .icon-5:before
+        {
+            content: "W";
+        }
+        .icon-6:before
+        {
+            content: "W";
+        }
+        .icon-7:before
+        {
+            content: "W";
+        }
+        .icon-8:before
+        {
+            content: "W";
+        }
+        .icon-9:before
+        {
+            content: "I";
+        }
+        .icon-10:before
+        {
+            content: "W";
+        }
+        .icon-11:before
+        {
+            content: "I";
+        }
+        .icon-12:before
+        {
+            content: "I";
+        }
+        .icon-13:before
+        {
+            content: "I";
+        }
+        .icon-14:before
+        {
+            content: "I";
+        }
+        .icon-15:before
+        {
+            content: "W";
+        }
+        .icon-16:before
+        {
+            content: "I";
+        }
+        .icon-17:before
+        {
+            content: "W";
+        }
+        .icon-18:before
+        {
+            content: "U";
+        }
+        .icon-19:before
+        {
+            content: "Z";
+        }
+        .icon-20:before
+        {
+            content: "Z";
+        }
+        .icon-21:before
+        {
+            content: "Z";
+        }
+        .icon-22:before
+        {
+            content: "Z";
+        }
+        .icon-23:before
+        {
+            content: "Z";
+        }
+        .icon-24:before
+        {
+            content: "E";
+        }
+        .icon-25:before
+        {
+            content: "E";
+        }
+        .icon-26:before
+        {
+            content: "3";
+        }
+        .icon-27:before
+        {
+            content: "a";
+        }
+        .icon-28:before
+        {
+            content: "A";
+        }
+        .icon-29:before
+        {
+            content: "a";
+        }
+        .icon-30:before
+        {
+            content: "A";
+        }
+        .icon-31:before
+        {
+            content: "6";
+        }
+        .icon-32:before
+        {
+            content: "1";
+        }
+        .icon-33:before
+        {
+            content: "6";
+        }
+        .icon-34:before
+        {
+            content: "1";
+        }
+        .icon-35:before
+        {
+            content: "W";
+        }
+        .icon-36:before
+        {
+            content: "1";
+        }
+        .icon-37:before
+        {
+            content: "S";
+        }
+        .icon-38:before
+        {
+            content: "S";
+        }
+        .icon-39:before
+        {
+            content: "S";
+        }
+        .icon-40:before
+        {
+            content: "M";
+        }
+        .icon-41:before
+        {
+            content: "W";
+        }
+        .icon-42:before
+        {
+            content: "I";
+        }
+        .icon-43:before
+        {
+            content: "W";
+
+        }
+        .icon-44:before
+        {
+            content: "a";
+        }
+        .icon-45:before
+        {
+            content: "S";
+        }
+        .icon-46:before
+        {
+            content: "U";
+        }
+        .icon-47:before
+        {
+            content: "S";
+        }
+        #weather h2
+        {
+            margin: 0 0 0px;
+            color: #fff;
+            font-size: 35px;
+            padding-bottom: 0px;
+            font-weight: 300;
+            text-align: center;
+            text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.15);
+        }
+        #weather ul
+        {
+            margin: 0;
+            padding: 0;
+        }
+        #weather li
+        {
+            font-size: 18px;
+            padding: 0px;
+            display: inline-block;
+            border-radius: 5px;
+            color: #fff;
+        }
+        #weather li:nth-child(2)
+        {
+            display: none;
+        }
+        #weather li:nth-child(3)
+        {
+            display: none;
+        }
+        #weather .currently
+        {
+            margin: 0 20px;
+        }
+        button
+        {
+            display: block;
+            margin: 15px auto;
+            width: 140px;
+            padding: 5px;
+            background: transparent;
+            color: #fff;
+            border: 0;
+            border-radius: 5px;
+        }
+        /* WEATHER STYLE END*/
+		
+	#dialog {
+   
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 100px;
+    top: 0;
+    width: 720px; /* Full width */
+    height: 700px; /* Full height */
+  
+
+}
+	
+	
+	</style>
+
+
+</head>
+<body >
+    <div id="banner">
+
+	<div id="dialog"></div>
+        <div id="Hotel_photo2_pannel">
+        <div class="header">
+            <div class="logo_detail">
+                <img src="images/Hotel_Logo.png">
+                <div id="spkmsg">
+                </div>
+            </div>
+           <!-- Weather start-->
+                <div style="float: left; width: 220px; position: absolute; top: 15px; right: 40px;
+                    border: solid 0px red; z-index: 9999;">
+                    <div id="weather">
+                    </div>
+                    <button class="js-geolocation" style="display: none;">
+                        Use Your Location</button>
+                </div>
+                <!-- Weather end-->
+          </div>
+        </div>
+        <div id="menu_pannel_bg">
+		<!-- <div class="nav_info">
+                                    <a href="#">
+                                        <img src="images/home.png" /></a> <a href="#">
+                                            <img src="images/backbutton.png" /></a>
+                                </div>  -->
+            <div class="middle_pannel">
+                <div id="menuitemN">
+                    <a id="0" class="itemN" href="#" onClick="appsonclick('AMAZON VIDEOS');"><span class="spacer_txt"><img src="images/amazonv.png" /></span></a>
+                    <div class="txt_info">AMAZON VIDEOS</div>    
+                </div>
+			   <div id="menuitemN">
+                    <a id="1" class="itemN" href="#" onClick="appsonclick('NETFLIX');"><span class="spacer_txt"><img src="images/apps1.png" /></span></a>
+                    <div class="txt_info">NETFLIX</div>                     
+                </div>  
+				 <div id="menuitemN">
+                    <a id="2" class="itemN" href="#" onClick="appsonclick('YOUTUBE');"><span class="img_holder spacer_txt">
+                        <img src="images/apps2.png" /></span></a>
+                        <div class="txt_info">YOUTUBE</div>     
+                </div>
+                <div id="menuitemN">
+                    <a id="3" class="itemN" href="#" onClick="appsonclick('HULU');"><span class="img_holder spacer_txt">
+                        <img src="images/hulu.png" /></span> </a>
+                         <div class="txt_info">HULU</div>     
+                </div>
+                 
+            </div>
+        </div>
+        <div class="bottom_pannel" style="table-layout: fixed; height: 40px; !important">
+            <div class="bottom_pannel_right">
+          	<div class="btn"> <img src="images/return.png"> </div>
+			<div class="footer_nav_text">Return</div>
+                <div class="btn">
+                    <img src="images/arrow_prev.png">
+                    <img src="images/arrow_next.png">
+                </div>
+                <div class="footer_nav_text">
+                    Left/Right
+                </div>
+                <div class="btn">
+                    <img src="images/ok.png">
+                </div>
+                <div class="footer_nav_text">
+                    Select</div>
+            </div>
+			<div class="bottom_pannel_left">                   
+                         <span class="date_display"> </span>              
+             </div>
+        </div>
+    </div>
+  
+
+</body>
+
+	<script type="text/javascript" src="js/apps_event.js"></script>
+	<script type="text/javascript" src='js/jquery.simpleWeather.js'></script>
+ 	<script type='text/javascript' language='javascript'>
+
+	 window.onerror = function(msg, url, linenumber){
+            // alert('Error message: '+msg+'\nURL: '+url+'\nLine Number: '+linenumber);
+			 document.getElementById("test").innerHTML+="<br> Error message: "+msg+"\nURL: "+url+"\nLine Number: "+linenumber;
+        }
+
+	 $(document).ready(function () {
+       		setInterval('fngetLocalTimemain()', 1000);
+			fngetweather1();
+			
+			$.get("helppopup.htm", function(data) {
+				$("#dialog").html( data );
+			});
+			
+        });
+	function homepageshowing()
+	{
+		window.location = "index.html?fromurl=ivod";
+		
+	}
+	function bckbtnpressed()
+	{
+
+		var currentLocation = String(window.location);
+		//document.getElementById("spkmsg").innerHTML+="<br>hi kaeman " + currentLocation;
+	
+		if (currentLocation.indexOf('ivod') !== -1)
+		{			
+			window.location = "index.html?fromurl=ivod";
+		}
+
+	}
+
+	//LG TV Get LocalTime information
+	function fngetLocalTimemain() {
+
+			var currentTimeString = new Date();
+			var datesplit=currentTimeString.toString().split(" ");
+			var dstr=formatAMPM(currentTimeString);
+			$('.date_display').text(datesplit[0]+ " " +datesplit[1]+ " " +datesplit[2]+ " " +datesplit[3]+ "  " +dstr);
+	}
+
+		/* JS function to convert AM/PM) */
+	function formatAMPM(date) {
+	  var hours = date.getHours();
+	  var minutes = date.getMinutes();
+	  var ampm = hours >= 12 ? 'PM' : 'AM';
+	  hours = hours % 12;
+	  hours = hours ? hours : 12; // the hour '0' should be '12'
+	  minutes = minutes < 10 ? '0'+minutes : minutes;
+	  var strTime = hours + ':' + minutes + ' ' + ampm;
+	  return strTime;
+	}
+function fngetweather1() {
+
+	$.simpleWeather({
+    location: 'New York',
+    woeid: '',
+    unit: 'c',
+    success: function(weather) {
+      html = '<h2><i></i> '+weather.temp+'&deg;'+weather.units.temp+'</h2>';
+      html += '<ul><li>'+weather.city+'</li>';
+      html += '<li class="currently">'+weather.currently+'</li>';
+      html += '<li>'+weather.wind.direction+' '+weather.wind.speed+' '+weather.units.speed+'</li></ul>';
+
+      $("#weather").html(html);
+    },
+    error: function(error) {
+      $("#weather").html('<p>'+error+'</p>');
+    }
+  });
+
+}
+	$('.itemN').mouseover(function(){		
+				$(".middle_pannel a").removeClass("test123");
+    			elementcount = $(this).attr("ID");
+				$('#'+elementcount).addClass("test123");
+    				
+		});
+	</script>
+
+</html>

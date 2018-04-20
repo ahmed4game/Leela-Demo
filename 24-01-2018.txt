@@ -1,0 +1,1095 @@
+2018-01-24 00:09:57 ---- Activity oncreate executed
+2018-01-24 00:09:57 ---- Please insert the USB to TV connector
+2018-01-24 00:10:00 ---- Page load http://172.16.63.11/Ithaca/index.html successfully
+2018-01-24 00:10:15 ---- OTT BOOT_COMPLETED
+2018-01-24 00:10:57 ---- null
+2018-01-24 00:10:57 ---- java.lang.NullPointerException: Attempt to invoke virtual method 'int java.lang.String.length()' on a null object reference
+	at libcore.net.UriCodec.encode(UriCodec.java:132)
+	at java.net.URLEncoder.encode(URLEncoder.java:57)
+	at com.mspl.com.hotelithaca.Cls_logger$SendPostRequest.doInBackground(Cls_logger.java:138)
+	at com.mspl.com.hotelithaca.Cls_logger$SendPostRequest.doInBackground(Cls_logger.java:123)
+	at android.os.AsyncTask$2.call(AsyncTask.java:295)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+	at android.os.AsyncTask$SerialExecutor$1.run(AsyncTask.java:234)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1113)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:588)
+	at java.lang.Thread.run(Thread.java:818)
+
+2018-01-24 00:11:24 ---- null
+2018-01-24 00:11:24 ---- java.lang.NullPointerException: Attempt to invoke virtual method 'int java.lang.String.length()' on a null object reference
+	at libcore.net.UriCodec.encode(UriCodec.java:132)
+	at java.net.URLEncoder.encode(URLEncoder.java:57)
+	at com.mspl.com.hotelithaca.Cls_logger$SendPostRequest.doInBackground(Cls_logger.java:138)
+	at com.mspl.com.hotelithaca.Cls_logger$SendPostRequest.doInBackground(Cls_logger.java:123)
+	at android.os.AsyncTask$2.call(AsyncTask.java:295)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+	at android.os.AsyncTask$SerialExecutor$1.run(AsyncTask.java:234)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1113)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:588)
+	at java.lang.Thread.run(Thread.java:818)
+
+2018-01-24 00:39:45 ---- java.lang.NullPointerException: Attempt to invoke virtual method 'void usbserial.util.SerialInputOutputManager.writeAsync(byte[])' on a null object reference
+	at msense.homepages.HomeActivity.htmlpagecodehandler(HomeActivity.java:1159)
+	at msense.homepages.HomeActivity.access$1900(HomeActivity.java:73)
+	at msense.homepages.HomeActivity$htmlkeycodehandler_task.doInBackground(HomeActivity.java:1061)
+	at msense.homepages.HomeActivity$htmlkeycodehandler_task.doInBackground(HomeActivity.java:1052)
+	at android.os.AsyncTask$2.call(AsyncTask.java:295)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+	at android.os.AsyncTask$SerialExecutor$1.run(AsyncTask.java:234)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1113)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:588)
+	at java.lang.Thread.run(Thread.java:818)
+
+2018-01-24 00:39:50 ---- java.lang.NullPointerException: Attempt to invoke virtual method 'void usbserial.util.SerialInputOutputManager.writeAsync(byte[])' on a null object reference
+	at msense.homepages.HomeActivity.setfixsoundontv(HomeActivity.java:1692)
+	at msense.homepages.HomeActivity.access$1400(HomeActivity.java:73)
+	at msense.homepages.HomeActivity$JsInterface_homescreen_activity.volumeListener(HomeActivity.java:1034)
+	at org.chromium.base.SystemMessageHandler.nativeDoRunLoopOnce(Native Method)
+	at org.chromium.base.SystemMessageHandler.handleMessage(SystemMessageHandler.java:53)
+	at android.os.Handler.dispatchMessage(Handler.java:102)
+	at android.os.Looper.loop(Looper.java:148)
+	at android.os.HandlerThread.run(HandlerThread.java:61)
+
+2018-01-24 00:39:51 ---- java.lang.NullPointerException: Attempt to invoke virtual method 'void usbserial.util.SerialInputOutputManager.writeAsync(byte[])' on a null object reference
+	at msense.homepages.HomeActivity.htmlpagecodehandler(HomeActivity.java:1159)
+	at msense.homepages.HomeActivity.access$1900(HomeActivity.java:73)
+	at msense.homepages.HomeActivity$htmlkeycodehandler_task.doInBackground(HomeActivity.java:1061)
+	at msense.homepages.HomeActivity$htmlkeycodehandler_task.doInBackground(HomeActivity.java:1052)
+	at android.os.AsyncTask$2.call(AsyncTask.java:295)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+	at android.os.AsyncTask$SerialExecutor$1.run(AsyncTask.java:234)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1113)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:588)
+	at java.lang.Thread.run(Thread.java:818)
+
+2018-01-24 00:39:56 ---- java.lang.NullPointerException: Attempt to invoke virtual method 'void usbserial.util.SerialInputOutputManager.writeAsync(byte[])' on a null object reference
+	at msense.homepages.HomeActivity.setfixsoundontv(HomeActivity.java:1692)
+	at msense.homepages.HomeActivity.access$1400(HomeActivity.java:73)
+	at msense.homepages.HomeActivity$JsInterface_homescreen_activity.volumeListener(HomeActivity.java:1034)
+	at org.chromium.base.SystemMessageHandler.nativeDoRunLoopOnce(Native Method)
+	at org.chromium.base.SystemMessageHandler.handleMessage(SystemMessageHandler.java:53)
+	at android.os.Handler.dispatchMessage(Handler.java:102)
+	at android.os.Looper.loop(Looper.java:148)
+	at android.os.HandlerThread.run(HandlerThread.java:61)
+
+2018-01-24 00:39:57 ---- java.lang.NullPointerException: Attempt to invoke virtual method 'void usbserial.util.SerialInputOutputManager.writeAsync(byte[])' on a null object reference
+	at msense.homepages.HomeActivity.setfixsoundontv(HomeActivity.java:1692)
+	at msense.homepages.HomeActivity.access$1400(HomeActivity.java:73)
+	at msense.homepages.HomeActivity$JsInterface_homescreen_activity.volumeListener(HomeActivity.java:1034)
+	at org.chromium.base.SystemMessageHandler.nativeDoRunLoopOnce(Native Method)
+	at org.chromium.base.SystemMessageHandler.handleMessage(SystemMessageHandler.java:53)
+	at android.os.Handler.dispatchMessage(Handler.java:102)
+	at android.os.Looper.loop(Looper.java:148)
+	at android.os.HandlerThread.run(HandlerThread.java:61)
+
+2018-01-24 00:40:02 ---- Page load http://172.16.63.11/Ithaca/hotelinfo.html successfully
+2018-01-24 00:40:09 ---- Page load http://172.16.63.11/Ithaca/aboutus.htm successfully
+2018-01-24 00:40:29 ---- Page load http://172.16.63.11/Ithaca/hotelinfo.html?fromurl=aboutus successfully
+2018-01-24 00:40:31 ---- Page load http://172.16.63.11/Ithaca/hotelinfo.html?fromurl=aboutus# successfully
+2018-01-24 00:40:31 ---- Page load http://172.16.63.11/Ithaca/accomodation.htm successfully
+2018-01-24 00:40:38 ---- Page load http://172.16.63.11/Ithaca/hotelinfo.html?fromurl=accomodation successfully
+2018-01-24 00:40:43 ---- Page load http://172.16.63.11/Ithaca/index.html?fromurl=hinfo successfully
+2018-01-24 00:40:47 ---- java.lang.NullPointerException: Attempt to invoke virtual method 'void usbserial.util.SerialInputOutputManager.writeAsync(byte[])' on a null object reference
+	at msense.homepages.HomeActivity.setfixsoundontv(HomeActivity.java:1692)
+	at msense.homepages.HomeActivity.access$1400(HomeActivity.java:73)
+	at msense.homepages.HomeActivity$JsInterface_homescreen_activity.volumeListener(HomeActivity.java:1034)
+	at org.chromium.base.SystemMessageHandler.nativeDoRunLoopOnce(Native Method)
+	at org.chromium.base.SystemMessageHandler.handleMessage(SystemMessageHandler.java:53)
+	at android.os.Handler.dispatchMessage(Handler.java:102)
+	at android.os.Looper.loop(Looper.java:148)
+	at android.os.HandlerThread.run(HandlerThread.java:61)
+
+2018-01-24 00:40:48 ---- applaunch amazon
+2018-01-24 00:40:48 ---- android.content.pm.PackageManager$NameNotFoundException: com.amazon.avod.thirdpartyclient
+	at android.app.ApplicationPackageManager.getPackageInfo(ApplicationPackageManager.java:137)
+	at msense.homepages.HomeActivity.appIsInstalled(HomeActivity.java:1345)
+	at msense.homepages.HomeActivity.lauchanotherapp(HomeActivity.java:1450)
+	at msense.homepages.HomeActivity.applaunch(HomeActivity.java:1419)
+	at msense.homepages.HomeActivity$applanchtask.onPostExecute(HomeActivity.java:1092)
+	at msense.homepages.HomeActivity$applanchtask.onPostExecute(HomeActivity.java:1080)
+	at android.os.AsyncTask.finish(AsyncTask.java:651)
+	at android.os.AsyncTask.-wrap1(AsyncTask.java)
+	at android.os.AsyncTask$InternalHandler.handleMessage(AsyncTask.java:668)
+	at android.os.Handler.dispatchMessage(Handler.java:102)
+	at android.os.Looper.loop(Looper.java:148)
+	at android.app.ActivityThread.main(ActivityThread.java:5422)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:726)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:616)
+
+2018-01-24 00:40:48 ---- App not installed on the device com.amazon.avod.thirdpartyclient
+2018-01-24 00:40:48 ---- Page load http://172.16.63.11/Ithaca/ivod.html successfully
+2018-01-24 00:41:56 ---- Page load http://172.16.63.11/Ithaca/ivod.html# successfully
+2018-01-24 00:41:57 ---- applaunch amazon
+2018-01-24 00:41:57 ---- android.content.pm.PackageManager$NameNotFoundException: com.amazon.avod.thirdpartyclient
+	at android.app.ApplicationPackageManager.getPackageInfo(ApplicationPackageManager.java:137)
+	at msense.homepages.HomeActivity.appIsInstalled(HomeActivity.java:1345)
+	at msense.homepages.HomeActivity.lauchanotherapp(HomeActivity.java:1450)
+	at msense.homepages.HomeActivity.applaunch(HomeActivity.java:1419)
+	at msense.homepages.HomeActivity$applanchtask.onPostExecute(HomeActivity.java:1092)
+	at msense.homepages.HomeActivity$applanchtask.onPostExecute(HomeActivity.java:1080)
+	at android.os.AsyncTask.finish(AsyncTask.java:651)
+	at android.os.AsyncTask.-wrap1(AsyncTask.java)
+	at android.os.AsyncTask$InternalHandler.handleMessage(AsyncTask.java:668)
+	at android.os.Handler.dispatchMessage(Handler.java:102)
+	at android.os.Looper.loop(Looper.java:148)
+	at android.app.ActivityThread.main(ActivityThread.java:5422)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:726)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:616)
+
+2018-01-24 00:41:57 ---- App not installed on the device com.amazon.avod.thirdpartyclient
+2018-01-24 00:41:57 ---- applaunch amazon
+2018-01-24 00:41:57 ---- android.content.pm.PackageManager$NameNotFoundException: com.amazon.avod.thirdpartyclient
+	at android.app.ApplicationPackageManager.getPackageInfo(ApplicationPackageManager.java:137)
+	at msense.homepages.HomeActivity.appIsInstalled(HomeActivity.java:1345)
+	at msense.homepages.HomeActivity.lauchanotherapp(HomeActivity.java:1450)
+	at msense.homepages.HomeActivity.applaunch(HomeActivity.java:1419)
+	at msense.homepages.HomeActivity$applanchtask.onPostExecute(HomeActivity.java:1092)
+	at msense.homepages.HomeActivity$applanchtask.onPostExecute(HomeActivity.java:1080)
+	at android.os.AsyncTask.finish(AsyncTask.java:651)
+	at android.os.AsyncTask.-wrap1(AsyncTask.java)
+	at android.os.AsyncTask$InternalHandler.handleMessage(AsyncTask.java:668)
+	at android.os.Handler.dispatchMessage(Handler.java:102)
+	at android.os.Looper.loop(Looper.java:148)
+	at android.app.ActivityThread.main(ActivityThread.java:5422)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:726)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:616)
+
+2018-01-24 00:41:57 ---- App not installed on the device com.amazon.avod.thirdpartyclient
+2018-01-24 00:42:30 ---- null
+2018-01-24 00:42:30 ---- java.lang.NullPointerException: Attempt to invoke virtual method 'int java.lang.String.length()' on a null object reference
+	at libcore.net.UriCodec.encode(UriCodec.java:132)
+	at java.net.URLEncoder.encode(URLEncoder.java:57)
+	at com.mspl.com.hotelithaca.Cls_logger$SendPostRequest.doInBackground(Cls_logger.java:138)
+	at com.mspl.com.hotelithaca.Cls_logger$SendPostRequest.doInBackground(Cls_logger.java:123)
+	at android.os.AsyncTask$2.call(AsyncTask.java:295)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+	at android.os.AsyncTask$SerialExecutor$1.run(AsyncTask.java:234)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1113)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:588)
+	at java.lang.Thread.run(Thread.java:818)
+
+2018-01-24 00:42:33 ---- Page load http://172.16.63.11/Ithaca/ivod.html# successfully
+2018-01-24 00:42:33 ---- applaunch netflix
+2018-01-24 00:42:33 ---- Key press event happend less than 300 milli sec ..
+2018-01-24 00:42:54 ---- Starting io manager ..
+2018-01-24 00:43:00 ---- Page load http://172.16.63.11/Ithaca/index.html?fromurl=ivod successfully
+2018-01-24 00:43:01 ---- applaunch BROWSER
+2018-01-24 00:43:03 ---- Stopping io manager ..
+2018-01-24 00:43:50 ---- Starting io manager ..
+2018-01-24 00:43:53 ---- null
+2018-01-24 00:43:53 ---- java.lang.NullPointerException: Attempt to invoke virtual method 'int java.lang.String.length()' on a null object reference
+	at libcore.net.UriCodec.encode(UriCodec.java:132)
+	at java.net.URLEncoder.encode(URLEncoder.java:57)
+	at com.mspl.com.hotelithaca.Cls_logger$SendPostRequest.doInBackground(Cls_logger.java:138)
+	at com.mspl.com.hotelithaca.Cls_logger$SendPostRequest.doInBackground(Cls_logger.java:123)
+	at android.os.AsyncTask$2.call(AsyncTask.java:295)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+	at android.os.AsyncTask$SerialExecutor$1.run(AsyncTask.java:234)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1113)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:588)
+	at java.lang.Thread.run(Thread.java:818)
+
+2018-01-24 00:43:53 ---- Cmd sent picmode
+2018-01-24 00:43:53 ---- 08220D00006168
+2018-01-24 00:43:53 ---- 030CF1
+2018-01-24 00:44:07 ---- Page load http://172.16.63.11/Ithaca/index.html?fromurl=ivod# successfully
+2018-01-24 00:44:07 ---- Page load http://172.16.63.11/Ithaca/smartshare.html successfully
+2018-01-24 00:44:49 ---- Page load http://172.16.63.11/Ithaca/smartshareiphone.html successfully
+2018-01-24 00:44:49 ---- null
+2018-01-24 00:44:49 ---- java.lang.NullPointerException: Attempt to invoke virtual method 'int java.lang.String.length()' on a null object reference
+	at libcore.net.UriCodec.encode(UriCodec.java:132)
+	at java.net.URLEncoder.encode(URLEncoder.java:57)
+	at com.mspl.com.hotelithaca.Cls_logger$SendPostRequest.doInBackground(Cls_logger.java:138)
+	at com.mspl.com.hotelithaca.Cls_logger$SendPostRequest.doInBackground(Cls_logger.java:123)
+	at android.os.AsyncTask$2.call(AsyncTask.java:295)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+	at android.os.AsyncTask$SerialExecutor$1.run(AsyncTask.java:234)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1113)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:588)
+	at java.lang.Thread.run(Thread.java:818)
+
+2018-01-24 00:44:49 ---- Cmd sent picmode
+2018-01-24 00:44:49 ---- 08220D00006168
+2018-01-24 00:44:49 ---- 030CF1
+2018-01-24 00:44:51 ---- Page load http://172.16.63.11/Ithaca/smartsharelaptop.html successfully
+2018-01-24 00:44:57 ---- Page load http://172.16.63.11/Ithaca/index.html?fromurl=smart successfully
+2018-01-24 00:45:01 ---- applaunch helpresetadb
+2018-01-24 00:45:01 ---- Page load http://172.16.63.11/Ithaca/index.html?fromurl=smart# successfully
+2018-01-24 00:45:01 ---- ADBD service resetted
+2018-01-24 00:45:01 ---- Page load http://172.16.63.11/Ithaca/help.htm successfully
+2018-01-24 00:45:12 ---- Page load http://172.16.63.11/Ithaca/index.html?fromurl=help successfully
+2018-01-24 00:45:27 ---- Voice recognition error message: Speech timeout
+2018-01-24 00:48:53 ---- null
+2018-01-24 00:48:53 ---- java.lang.NullPointerException: Attempt to invoke virtual method 'int java.lang.String.length()' on a null object reference
+	at libcore.net.UriCodec.encode(UriCodec.java:132)
+	at java.net.URLEncoder.encode(URLEncoder.java:57)
+	at com.mspl.com.hotelithaca.Cls_logger$SendPostRequest.doInBackground(Cls_logger.java:138)
+	at com.mspl.com.hotelithaca.Cls_logger$SendPostRequest.doInBackground(Cls_logger.java:123)
+	at android.os.AsyncTask$2.call(AsyncTask.java:295)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+	at android.os.AsyncTask$SerialExecutor$1.run(AsyncTask.java:234)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1113)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:588)
+	at java.lang.Thread.run(Thread.java:818)
+
+2018-01-24 00:48:53 ---- Cmd sent picmode
+2018-01-24 00:48:53 ---- 08220D00006168
+2018-01-24 00:48:53 ---- 030CF1
+2018-01-24 00:49:49 ---- null
+2018-01-24 00:49:49 ---- java.lang.NullPointerException: Attempt to invoke virtual method 'int java.lang.String.length()' on a null object reference
+	at libcore.net.UriCodec.encode(UriCodec.java:132)
+	at java.net.URLEncoder.encode(URLEncoder.java:57)
+	at com.mspl.com.hotelithaca.Cls_logger$SendPostRequest.doInBackground(Cls_logger.java:138)
+	at com.mspl.com.hotelithaca.Cls_logger$SendPostRequest.doInBackground(Cls_logger.java:123)
+	at android.os.AsyncTask$2.call(AsyncTask.java:295)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+	at android.os.AsyncTask$SerialExecutor$1.run(AsyncTask.java:234)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1113)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:588)
+	at java.lang.Thread.run(Thread.java:818)
+
+2018-01-24 00:49:49 ---- Cmd sent picmode
+2018-01-24 00:49:49 ---- 08220D00006168
+2018-01-24 00:49:49 ---- 030CF1
+2018-01-24 00:51:44 ---- Page load http://172.16.63.11/Ithaca/index.html?fromurl=help# successfully
+2018-01-24 00:51:44 ---- applaunch helpresetadb
+2018-01-24 00:51:45 ---- ADBD service resetted
+2018-01-24 00:51:45 ---- Page load http://172.16.63.11/Ithaca/help.htm successfully
+2018-01-24 00:53:32 ---- Page load http://172.16.63.11/Ithaca/help.htm successfully
+2018-01-24 00:53:53 ---- null
+2018-01-24 00:53:53 ---- java.lang.NullPointerException: Attempt to invoke virtual method 'int java.lang.String.length()' on a null object reference
+	at libcore.net.UriCodec.encode(UriCodec.java:132)
+	at java.net.URLEncoder.encode(URLEncoder.java:57)
+	at com.mspl.com.hotelithaca.Cls_logger$SendPostRequest.doInBackground(Cls_logger.java:138)
+	at com.mspl.com.hotelithaca.Cls_logger$SendPostRequest.doInBackground(Cls_logger.java:123)
+	at android.os.AsyncTask$2.call(AsyncTask.java:295)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+	at android.os.AsyncTask$SerialExecutor$1.run(AsyncTask.java:234)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1113)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:588)
+	at java.lang.Thread.run(Thread.java:818)
+
+2018-01-24 00:53:53 ---- Cmd sent picmode
+2018-01-24 00:53:53 ---- 08220D00006168
+2018-01-24 00:53:53 ---- 030CF1
+2018-01-24 00:54:49 ---- null
+2018-01-24 00:54:49 ---- java.lang.NullPointerException: Attempt to invoke virtual method 'int java.lang.String.length()' on a null object reference
+	at libcore.net.UriCodec.encode(UriCodec.java:132)
+	at java.net.URLEncoder.encode(URLEncoder.java:57)
+	at com.mspl.com.hotelithaca.Cls_logger$SendPostRequest.doInBackground(Cls_logger.java:138)
+	at com.mspl.com.hotelithaca.Cls_logger$SendPostRequest.doInBackground(Cls_logger.java:123)
+	at android.os.AsyncTask$2.call(AsyncTask.java:295)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+	at android.os.AsyncTask$SerialExecutor$1.run(AsyncTask.java:234)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1113)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:588)
+	at java.lang.Thread.run(Thread.java:818)
+
+2018-01-24 00:54:49 ---- Cmd sent picmode
+2018-01-24 00:54:49 ---- 08220D00006168
+2018-01-24 00:54:49 ---- 030CF1
+2018-01-24 00:55:18 ---- Page load http://172.16.63.11/Ithaca/help.htm successfully
+2018-01-24 00:57:04 ---- Page load http://172.16.63.11/Ithaca/help.htm successfully
+2018-01-24 00:58:51 ---- Page load http://172.16.63.11/Ithaca/help.htm successfully
+2018-01-24 00:58:53 ---- null
+2018-01-24 00:58:53 ---- java.lang.NullPointerException: Attempt to invoke virtual method 'int java.lang.String.length()' on a null object reference
+	at libcore.net.UriCodec.encode(UriCodec.java:132)
+	at java.net.URLEncoder.encode(URLEncoder.java:57)
+	at com.mspl.com.hotelithaca.Cls_logger$SendPostRequest.doInBackground(Cls_logger.java:138)
+	at com.mspl.com.hotelithaca.Cls_logger$SendPostRequest.doInBackground(Cls_logger.java:123)
+	at android.os.AsyncTask$2.call(AsyncTask.java:295)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+	at android.os.AsyncTask$SerialExecutor$1.run(AsyncTask.java:234)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1113)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:588)
+	at java.lang.Thread.run(Thread.java:818)
+
+2018-01-24 00:58:53 ---- Cmd sent picmode
+2018-01-24 00:58:53 ---- 08220D00006168
+2018-01-24 00:58:53 ---- 030CF1
+2018-01-24 00:59:49 ---- null
+2018-01-24 00:59:49 ---- java.lang.NullPointerException: Attempt to invoke virtual method 'int java.lang.String.length()' on a null object reference
+	at libcore.net.UriCodec.encode(UriCodec.java:132)
+	at java.net.URLEncoder.encode(URLEncoder.java:57)
+	at com.mspl.com.hotelithaca.Cls_logger$SendPostRequest.doInBackground(Cls_logger.java:138)
+	at com.mspl.com.hotelithaca.Cls_logger$SendPostRequest.doInBackground(Cls_logger.java:123)
+	at android.os.AsyncTask$2.call(AsyncTask.java:295)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+	at android.os.AsyncTask$SerialExecutor$1.run(AsyncTask.java:234)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1113)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:588)
+	at java.lang.Thread.run(Thread.java:818)
+
+2018-01-24 00:59:49 ---- Cmd sent picmode
+2018-01-24 00:59:49 ---- 08220D00006168
+2018-01-24 00:59:49 ---- 030CF1
+2018-01-24 01:00:37 ---- Page load http://172.16.63.11/Ithaca/help.htm successfully
+2018-01-24 01:02:23 ---- Page load http://172.16.63.11/Ithaca/help.htm successfully
+2018-01-24 01:03:53 ---- null
+2018-01-24 01:03:53 ---- java.lang.NullPointerException: Attempt to invoke virtual method 'int java.lang.String.length()' on a null object reference
+	at libcore.net.UriCodec.encode(UriCodec.java:132)
+	at java.net.URLEncoder.encode(URLEncoder.java:57)
+	at com.mspl.com.hotelithaca.Cls_logger$SendPostRequest.doInBackground(Cls_logger.java:138)
+	at com.mspl.com.hotelithaca.Cls_logger$SendPostRequest.doInBackground(Cls_logger.java:123)
+	at android.os.AsyncTask$2.call(AsyncTask.java:295)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+	at android.os.AsyncTask$SerialExecutor$1.run(AsyncTask.java:234)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1113)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:588)
+	at java.lang.Thread.run(Thread.java:818)
+
+2018-01-24 01:03:53 ---- Cmd sent picmode
+2018-01-24 01:03:53 ---- 08220D00006168
+2018-01-24 01:03:53 ---- 030CF1
+2018-01-24 01:04:10 ---- Page load http://172.16.63.11/Ithaca/help.htm successfully
+2018-01-24 01:04:49 ---- null
+2018-01-24 01:04:49 ---- java.lang.NullPointerException: Attempt to invoke virtual method 'int java.lang.String.length()' on a null object reference
+	at libcore.net.UriCodec.encode(UriCodec.java:132)
+	at java.net.URLEncoder.encode(URLEncoder.java:57)
+	at com.mspl.com.hotelithaca.Cls_logger$SendPostRequest.doInBackground(Cls_logger.java:138)
+	at com.mspl.com.hotelithaca.Cls_logger$SendPostRequest.doInBackground(Cls_logger.java:123)
+	at android.os.AsyncTask$2.call(AsyncTask.java:295)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+	at android.os.AsyncTask$SerialExecutor$1.run(AsyncTask.java:234)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1113)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:588)
+	at java.lang.Thread.run(Thread.java:818)
+
+2018-01-24 01:04:50 ---- Cmd sent picmode
+2018-01-24 01:04:50 ---- 08220D00006168
+2018-01-24 01:04:50 ---- 030CF1
+2018-01-24 01:05:56 ---- Page load http://172.16.63.11/Ithaca/help.htm successfully
+2018-01-24 01:07:42 ---- Page load http://172.16.63.11/Ithaca/help.htm successfully
+2018-01-24 01:08:53 ---- null
+2018-01-24 01:08:53 ---- java.lang.NullPointerException: Attempt to invoke virtual method 'int java.lang.String.length()' on a null object reference
+	at libcore.net.UriCodec.encode(UriCodec.java:132)
+	at java.net.URLEncoder.encode(URLEncoder.java:57)
+	at com.mspl.com.hotelithaca.Cls_logger$SendPostRequest.doInBackground(Cls_logger.java:138)
+	at com.mspl.com.hotelithaca.Cls_logger$SendPostRequest.doInBackground(Cls_logger.java:123)
+	at android.os.AsyncTask$2.call(AsyncTask.java:295)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+	at android.os.AsyncTask$SerialExecutor$1.run(AsyncTask.java:234)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1113)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:588)
+	at java.lang.Thread.run(Thread.java:818)
+
+2018-01-24 01:08:53 ---- Cmd sent picmode
+2018-01-24 01:08:53 ---- 08220D00006168
+2018-01-24 01:08:53 ---- 030CF1
+2018-01-24 01:09:29 ---- Page load http://172.16.63.11/Ithaca/help.htm successfully
+2018-01-24 01:09:49 ---- null
+2018-01-24 01:09:49 ---- java.lang.NullPointerException: Attempt to invoke virtual method 'int java.lang.String.length()' on a null object reference
+	at libcore.net.UriCodec.encode(UriCodec.java:132)
+	at java.net.URLEncoder.encode(URLEncoder.java:57)
+	at com.mspl.com.hotelithaca.Cls_logger$SendPostRequest.doInBackground(Cls_logger.java:138)
+	at com.mspl.com.hotelithaca.Cls_logger$SendPostRequest.doInBackground(Cls_logger.java:123)
+	at android.os.AsyncTask$2.call(AsyncTask.java:295)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+	at android.os.AsyncTask$SerialExecutor$1.run(AsyncTask.java:234)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1113)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:588)
+	at java.lang.Thread.run(Thread.java:818)
+
+2018-01-24 01:09:49 ---- Cmd sent picmode
+2018-01-24 01:09:49 ---- 08220D00006168
+2018-01-24 01:09:49 ---- 030CF1
+2018-01-24 01:10:19 ---- null
+2018-01-24 01:10:19 ---- java.lang.NullPointerException: Attempt to invoke virtual method 'int java.lang.String.length()' on a null object reference
+	at libcore.net.UriCodec.encode(UriCodec.java:132)
+	at java.net.URLEncoder.encode(URLEncoder.java:57)
+	at com.mspl.com.hotelithaca.Cls_logger$SendPostRequest.doInBackground(Cls_logger.java:138)
+	at com.mspl.com.hotelithaca.Cls_logger$SendPostRequest.doInBackground(Cls_logger.java:123)
+	at android.os.AsyncTask$2.call(AsyncTask.java:295)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+	at android.os.AsyncTask$SerialExecutor$1.run(AsyncTask.java:234)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1113)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:588)
+	at java.lang.Thread.run(Thread.java:818)
+
+2018-01-24 01:11:15 ---- Page load http://172.16.63.11/Ithaca/help.htm successfully
+2018-01-24 01:13:01 ---- Page load http://172.16.63.11/Ithaca/help.htm successfully
+2018-01-24 01:13:53 ---- null
+2018-01-24 01:13:53 ---- java.lang.NullPointerException: Attempt to invoke virtual method 'int java.lang.String.length()' on a null object reference
+	at libcore.net.UriCodec.encode(UriCodec.java:132)
+	at java.net.URLEncoder.encode(URLEncoder.java:57)
+	at com.mspl.com.hotelithaca.Cls_logger$SendPostRequest.doInBackground(Cls_logger.java:138)
+	at com.mspl.com.hotelithaca.Cls_logger$SendPostRequest.doInBackground(Cls_logger.java:123)
+	at android.os.AsyncTask$2.call(AsyncTask.java:295)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+	at android.os.AsyncTask$SerialExecutor$1.run(AsyncTask.java:234)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1113)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:588)
+	at java.lang.Thread.run(Thread.java:818)
+
+2018-01-24 01:13:53 ---- Cmd sent picmode
+2018-01-24 01:13:53 ---- 08220D00006168
+2018-01-24 01:13:53 ---- 030CF1
+2018-01-24 01:14:48 ---- Page load http://172.16.63.11/Ithaca/help.htm successfully
+2018-01-24 01:14:49 ---- null
+2018-01-24 01:14:49 ---- java.lang.NullPointerException: Attempt to invoke virtual method 'int java.lang.String.length()' on a null object reference
+	at libcore.net.UriCodec.encode(UriCodec.java:132)
+	at java.net.URLEncoder.encode(URLEncoder.java:57)
+	at com.mspl.com.hotelithaca.Cls_logger$SendPostRequest.doInBackground(Cls_logger.java:138)
+	at com.mspl.com.hotelithaca.Cls_logger$SendPostRequest.doInBackground(Cls_logger.java:123)
+	at android.os.AsyncTask$2.call(AsyncTask.java:295)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+	at android.os.AsyncTask$SerialExecutor$1.run(AsyncTask.java:234)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1113)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:588)
+	at java.lang.Thread.run(Thread.java:818)
+
+2018-01-24 01:14:49 ---- Cmd sent picmode
+2018-01-24 01:14:49 ---- 08220D00006168
+2018-01-24 01:14:49 ---- 030CF1
+2018-01-24 01:16:34 ---- Page load http://172.16.63.11/Ithaca/help.htm successfully
+2018-01-24 01:17:24 ---- Activity oncreate executed
+2018-01-24 01:17:25 ---- Starting io manager ..
+2018-01-24 01:17:27 ---- Page load http://172.16.63.148/Ithaca/index.html successfully
+2018-01-24 01:23:57 ---- java.lang.NullPointerException: Attempt to invoke virtual method 'void usbserial.util.SerialInputOutputManager.writeAsync(byte[])' on a null object reference
+	at msense.homepages.HomeActivity.htmlpagecodehandler(HomeActivity.java:1241)
+	at msense.homepages.HomeActivity.access$1900(HomeActivity.java:75)
+	at msense.homepages.HomeActivity$htmlkeycodehandler_task.doInBackground(HomeActivity.java:1088)
+	at msense.homepages.HomeActivity$htmlkeycodehandler_task.doInBackground(HomeActivity.java:1079)
+	at android.os.AsyncTask$2.call(AsyncTask.java:295)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+	at android.os.AsyncTask$SerialExecutor$1.run(AsyncTask.java:234)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1113)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:588)
+	at java.lang.Thread.run(Thread.java:818)
+
+2018-01-24 01:23:58 ---- Page load file:///android_asset/hotelinfo.html successfully
+2018-01-24 01:24:00 ---- Page load file:///android_asset/index.html?fromurl=hinfo successfully
+2018-01-24 01:24:00 ---- null
+2018-01-24 01:24:00 ---- java.lang.NullPointerException: Attempt to invoke virtual method 'int java.lang.String.length()' on a null object reference
+	at libcore.net.UriCodec.encode(UriCodec.java:132)
+	at java.net.URLEncoder.encode(URLEncoder.java:57)
+	at com.mspl.com.hotelithaca.Cls_logger$SendPostRequest.doInBackground(Cls_logger.java:141)
+	at com.mspl.com.hotelithaca.Cls_logger$SendPostRequest.doInBackground(Cls_logger.java:126)
+	at android.os.AsyncTask$2.call(AsyncTask.java:295)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+	at android.os.AsyncTask$SerialExecutor$1.run(AsyncTask.java:234)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1113)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:588)
+	at java.lang.Thread.run(Thread.java:818)
+
+2018-01-24 01:24:01 ---- java.lang.NullPointerException: Attempt to invoke virtual method 'void usbserial.util.SerialInputOutputManager.writeAsync(byte[])' on a null object reference
+	at msense.homepages.HomeActivity.setfixsoundontv(HomeActivity.java:1719)
+	at msense.homepages.HomeActivity.access$1300(HomeActivity.java:75)
+	at msense.homepages.HomeActivity$JsInterface_homescreen_activity.volumeListener(HomeActivity.java:1061)
+	at org.chromium.base.SystemMessageHandler.nativeDoRunLoopOnce(Native Method)
+	at org.chromium.base.SystemMessageHandler.handleMessage(SystemMessageHandler.java:53)
+	at android.os.Handler.dispatchMessage(Handler.java:102)
+	at android.os.Looper.loop(Looper.java:148)
+	at android.os.HandlerThread.run(HandlerThread.java:61)
+
+2018-01-24 01:24:01 ---- java.lang.NullPointerException: Attempt to invoke virtual method 'void usbserial.util.SerialInputOutputManager.writeAsync(byte[])' on a null object reference
+	at msense.homepages.HomeActivity.setfixsoundontv(HomeActivity.java:1719)
+	at msense.homepages.HomeActivity.access$1300(HomeActivity.java:75)
+	at msense.homepages.HomeActivity$JsInterface_homescreen_activity.volumeListener(HomeActivity.java:1061)
+	at org.chromium.base.SystemMessageHandler.nativeDoRunLoopOnce(Native Method)
+	at org.chromium.base.SystemMessageHandler.handleMessage(SystemMessageHandler.java:53)
+	at android.os.Handler.dispatchMessage(Handler.java:102)
+	at android.os.Looper.loop(Looper.java:148)
+	at android.os.HandlerThread.run(HandlerThread.java:61)
+
+2018-01-24 01:24:02 ---- Page load file:///android_asset/index.html?fromurl=hinfo# successfully
+2018-01-24 01:24:02 ---- java.lang.NullPointerException: Attempt to invoke virtual method 'void usbserial.util.SerialInputOutputManager.writeAsync(byte[])' on a null object reference
+	at msense.homepages.HomeActivity.htmlpagecodehandler(HomeActivity.java:1187)
+	at msense.homepages.HomeActivity.access$1900(HomeActivity.java:75)
+	at msense.homepages.HomeActivity$htmlkeycodehandler_task.doInBackground(HomeActivity.java:1088)
+	at msense.homepages.HomeActivity$htmlkeycodehandler_task.doInBackground(HomeActivity.java:1079)
+	at android.os.AsyncTask$2.call(AsyncTask.java:295)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+	at android.os.AsyncTask$SerialExecutor$1.run(AsyncTask.java:234)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1113)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:588)
+	at java.lang.Thread.run(Thread.java:818)
+
+2018-01-24 01:24:06 ---- adb offlie check
+2018-01-24 01:24:41 ---- Activity oncreate executed
+2018-01-24 01:24:42 ---- Please insert the USB to TV connector
+2018-01-24 01:24:43 ---- Page load http://172.16.63.148/Ithaca/index.html successfully
+2018-01-24 01:24:50 ---- Page load http://172.16.63.148/Ithaca/index.html# successfully
+2018-01-24 01:24:56 ---- Page load http://172.16.63.148/Ithaca/index.html# successfully
+2018-01-24 01:25:00 ---- Page load http://172.16.63.148/Ithaca/index.html# successfully
+2018-01-24 01:25:00 ---- Page load http://172.16.63.148/Ithaca/index.html# successfully
+2018-01-24 01:25:01 ---- OTT BOOT_COMPLETED
+2018-01-24 01:25:21 ---- Page load http://172.16.63.148/Ithaca/index.html# successfully
+2018-01-24 01:25:25 ---- Page load http://172.16.63.148/Ithaca/index.html# successfully
+2018-01-24 01:25:25 ---- Page load http://172.16.63.148/Ithaca/index.html# successfully
+2018-01-24 01:25:25 ---- Page load http://172.16.63.148/Ithaca/index.html# successfully
+2018-01-24 01:25:26 ---- Page load http://172.16.63.148/Ithaca/index.html# successfully
+2018-01-24 01:25:27 ---- Page load http://172.16.63.148/Ithaca/index.html# successfully
+2018-01-24 01:25:29 ---- Page load http://172.16.63.148/Ithaca/index.html# successfully
+2018-01-24 01:25:29 ---- Page load http://172.16.63.148/Ithaca/index.html# successfully
+2018-01-24 01:25:42 ---- adb offlie check
+2018-01-24 01:26:13 ---- null
+2018-01-24 01:26:14 ---- java.lang.NullPointerException: Attempt to invoke virtual method 'int java.lang.String.length()' on a null object reference
+	at libcore.net.UriCodec.encode(UriCodec.java:132)
+	at java.net.URLEncoder.encode(URLEncoder.java:57)
+	at com.mspl.com.hotelithaca.Cls_logger$SendPostRequest.doInBackground(Cls_logger.java:141)
+	at com.mspl.com.hotelithaca.Cls_logger$SendPostRequest.doInBackground(Cls_logger.java:126)
+	at android.os.AsyncTask$2.call(AsyncTask.java:295)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+	at android.os.AsyncTask$SerialExecutor$1.run(AsyncTask.java:234)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1113)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:588)
+	at java.lang.Thread.run(Thread.java:818)
+
+2018-01-24 01:26:17 ---- Activity oncreate executed
+2018-01-24 01:26:17 ---- Starting io manager ..
+2018-01-24 01:26:20 ---- Page load http://172.16.63.11/Ithaca/index.html successfully
+2018-01-24 01:26:27 ---- Cmd sent tv
+2018-01-24 01:26:27 ---- 08220A000000CC
+2018-01-24 01:26:27 ---- Page load http://172.16.63.11/Ithaca/index.html# successfully
+2018-01-24 01:26:27 ---- 030CF1
+2018-01-24 01:26:27 ---- Cmd sent 20
+2018-01-24 01:26:27 ---- 08220100000ACB
+2018-01-24 01:26:27 ---- 030CF1
+2018-01-24 01:26:32 ---- Cmd sent CH+
+2018-01-24 01:26:32 ---- Key press event happend less than 300 milli sec ..
+2018-01-24 01:26:32 ---- 082203000100D2
+2018-01-24 01:26:33 ---- 030CF1
+2018-01-24 01:26:33 ---- Cmd sent CH+
+2018-01-24 01:26:33 ---- 082203000100D2
+2018-01-24 01:26:33 ---- 030CF1
+2018-01-24 01:26:39 ---- Cmd sent vplus
+2018-01-24 01:26:39 ---- 082201000100D4
+2018-01-24 01:26:39 ---- 030CF1
+2018-01-24 01:26:40 ---- Cmd sent vplus
+2018-01-24 01:26:40 ---- Key press event happend less than 300 milli sec ..
+2018-01-24 01:26:40 ---- 082201000100D4
+2018-01-24 01:26:40 ---- 030CF1
+2018-01-24 01:26:40 ---- Key press event happend less than 300 milli sec ..
+2018-01-24 01:26:40 ---- Key press event happend less than 300 milli sec ..
+2018-01-24 01:26:40 ---- Cmd sent vplus
+2018-01-24 01:26:40 ---- 082201000100D4
+2018-01-24 01:26:40 ---- 030CF1
+2018-01-24 01:26:40 ---- Key press event happend less than 300 milli sec ..
+2018-01-24 01:26:40 ---- Key press event happend less than 300 milli sec ..
+2018-01-24 01:26:40 ---- Key press event happend less than 300 milli sec ..
+2018-01-24 01:26:40 ---- Cmd sent vplus
+2018-01-24 01:26:40 ---- 082201000100D4
+2018-01-24 01:26:40 ---- 030CF1
+2018-01-24 01:26:40 ---- Key press event happend less than 300 milli sec ..
+2018-01-24 01:26:41 ---- Cmd sent vplus
+2018-01-24 01:26:41 ---- Key press event happend less than 300 milli sec ..
+2018-01-24 01:26:41 ---- 082201000100D4
+2018-01-24 01:26:41 ---- 030CF1
+2018-01-24 01:26:41 ---- Key press event happend less than 300 milli sec ..
+2018-01-24 01:26:41 ---- Key press event happend less than 300 milli sec ..
+2018-01-24 01:26:41 ---- Cmd sent vplus
+2018-01-24 01:26:41 ---- 082201000100D4
+2018-01-24 01:26:41 ---- 030CF1
+2018-01-24 01:26:41 ---- Key press event happend less than 300 milli sec ..
+2018-01-24 01:26:41 ---- Key press event happend less than 300 milli sec ..
+2018-01-24 01:26:41 ---- Key press event happend less than 300 milli sec ..
+2018-01-24 01:26:42 ---- Key press event happend less than 300 milli sec ..
+2018-01-24 01:26:42 ---- Key press event happend less than 300 milli sec ..
+2018-01-24 01:26:42 ---- Key press event happend less than 300 milli sec ..
+2018-01-24 01:26:42 ---- Cmd sent vplus
+2018-01-24 01:26:42 ---- Key press event happend less than 300 milli sec ..
+2018-01-24 01:26:42 ---- Key press event happend less than 300 milli sec ..
+2018-01-24 01:26:42 ---- 082201000100D4
+2018-01-24 01:26:42 ---- 030CF1
+2018-01-24 01:26:42 ---- Key press event happend less than 300 milli sec ..
+2018-01-24 01:26:42 ---- Key press event happend less than 300 milli sec ..
+2018-01-24 01:26:42 ---- Cmd sent vplus
+2018-01-24 01:26:42 ---- 082201000100D4
+2018-01-24 01:26:42 ---- 030CF1
+2018-01-24 01:27:17 ---- Cmd sent mute
+2018-01-24 01:27:17 ---- Key press event happend less than 300 milli sec ..
+2018-01-24 01:27:17 ---- 082202000000D4
+2018-01-24 01:27:17 ---- 030CF1
+2018-01-24 01:27:17 ---- Cmd sent picmode
+2018-01-24 01:27:17 ---- adb offlie check
+2018-01-24 01:27:17 ---- 08220D00006168
+2018-01-24 01:27:17 ---- 030CF1
+2018-01-24 01:27:18 ---- Cmd sent mute
+2018-01-24 01:27:18 ---- Key press event happend less than 300 milli sec ..
+2018-01-24 01:27:18 ---- 082202000000D4
+2018-01-24 01:27:18 ---- 030CF1
+2018-01-24 01:27:25 ---- Cmd sent vplus
+2018-01-24 01:27:25 ---- 082201000100D4
+2018-01-24 01:27:25 ---- 030CF1
+2018-01-24 01:27:26 ---- Cmd sent vplus
+2018-01-24 01:27:26 ---- 082201000100D4
+2018-01-24 01:27:26 ---- 030CF1
+2018-01-24 01:27:26 ---- Cmd sent vplus
+2018-01-24 01:27:26 ---- Key press event happend less than 300 milli sec ..
+2018-01-24 01:27:26 ---- Key press event happend less than 300 milli sec ..
+2018-01-24 01:27:26 ---- 082201000100D4
+2018-01-24 01:27:26 ---- 030CF1
+2018-01-24 01:27:26 ---- Key press event happend less than 300 milli sec ..
+2018-01-24 01:27:26 ---- Key press event happend less than 300 milli sec ..
+2018-01-24 01:27:26 ---- Key press event happend less than 300 milli sec ..
+2018-01-24 01:27:26 ---- Cmd sent vplus
+2018-01-24 01:27:26 ---- Key press event happend less than 300 milli sec ..
+2018-01-24 01:27:26 ---- 082201000100D4
+2018-01-24 01:27:26 ---- 030CF1
+2018-01-24 01:27:27 ---- Key press event happend less than 300 milli sec ..
+2018-01-24 01:27:27 ---- Key press event happend less than 300 milli sec ..
+2018-01-24 01:27:44 ---- null
+2018-01-24 01:27:44 ---- java.lang.NullPointerException: Attempt to invoke virtual method 'int java.lang.String.length()' on a null object reference
+	at libcore.net.UriCodec.encode(UriCodec.java:132)
+	at java.net.URLEncoder.encode(URLEncoder.java:57)
+	at com.mspl.com.hotelithaca.Cls_logger$SendPostRequest.doInBackground(Cls_logger.java:141)
+	at com.mspl.com.hotelithaca.Cls_logger$SendPostRequest.doInBackground(Cls_logger.java:126)
+	at android.os.AsyncTask$2.call(AsyncTask.java:295)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+	at android.os.AsyncTask$SerialExecutor$1.run(AsyncTask.java:234)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1113)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:588)
+	at java.lang.Thread.run(Thread.java:818)
+
+2018-01-24 01:27:53 ---- Cmd sent vplus
+2018-01-24 01:27:53 ---- 082201000100D4
+2018-01-24 01:27:53 ---- 030CF1
+2018-01-24 01:27:53 ---- Cmd sent vplus
+2018-01-24 01:27:53 ---- 082201000100D4
+2018-01-24 01:27:53 ---- 030CF1
+2018-01-24 01:27:54 ---- Cmd sent vminus
+2018-01-24 01:27:54 ---- 082201000200D3
+2018-01-24 01:27:54 ---- 030CF1
+2018-01-24 01:27:54 ---- Cmd sent vminus
+2018-01-24 01:27:54 ---- 082201000200D3
+2018-01-24 01:27:54 ---- 030CF1
+2018-01-24 01:27:56 ---- Cmd sent chlist
+2018-01-24 01:27:57 ---- 08220D00006B5E
+2018-01-24 01:27:57 ---- 030CF1
+2018-01-24 01:27:58 ---- Cmd sent down
+2018-01-24 01:27:58 ---- 08220D00006168
+2018-01-24 01:27:58 ---- 030CF1
+2018-01-24 01:27:59 ---- Key press event happend less than 300 milli sec ..
+2018-01-24 01:27:59 ---- Cmd sent down
+2018-01-24 01:27:59 ---- Key press event happend less than 300 milli sec ..
+2018-01-24 01:27:59 ---- 08220D00006168
+2018-01-24 01:27:59 ---- 030CF1
+2018-01-24 01:27:59 ---- Key press event happend less than 300 milli sec ..
+2018-01-24 01:27:59 ---- Key press event happend less than 300 milli sec ..
+2018-01-24 01:27:59 ---- Key press event happend less than 300 milli sec ..
+2018-01-24 01:27:59 ---- Key press event happend less than 300 milli sec ..
+2018-01-24 01:27:59 ---- Cmd sent down
+2018-01-24 01:27:59 ---- Key press event happend less than 300 milli sec ..
+2018-01-24 01:27:59 ---- 08220D00006168
+2018-01-24 01:27:59 ---- 030CF1
+2018-01-24 01:27:59 ---- Key press event happend less than 300 milli sec ..
+2018-01-24 01:28:00 ---- Key press event happend less than 300 milli sec ..
+2018-01-24 01:28:00 ---- Key press event happend less than 300 milli sec ..
+2018-01-24 01:28:00 ---- Cmd sent down
+2018-01-24 01:28:00 ---- Key press event happend less than 300 milli sec ..
+2018-01-24 01:28:00 ---- 08220D00006168
+2018-01-24 01:28:00 ---- 030CF1
+2018-01-24 01:28:00 ---- Key press event happend less than 300 milli sec ..
+2018-01-24 01:28:00 ---- Key press event happend less than 300 milli sec ..
+2018-01-24 01:28:00 ---- Key press event happend less than 300 milli sec ..
+2018-01-24 01:28:00 ---- Key press event happend less than 300 milli sec ..
+2018-01-24 01:28:00 ---- Key press event happend less than 300 milli sec ..
+2018-01-24 01:28:00 ---- Cmd sent down
+2018-01-24 01:28:00 ---- Key press event happend less than 300 milli sec ..
+2018-01-24 01:28:00 ---- Key press event happend less than 300 milli sec ..
+2018-01-24 01:28:00 ---- 08220D00006168
+2018-01-24 01:28:00 ---- 030CF1
+2018-01-24 01:28:00 ---- Key press event happend less than 300 milli sec ..
+2018-01-24 01:28:00 ---- Key press event happend less than 300 milli sec ..
+2018-01-24 01:28:00 ---- Key press event happend less than 300 milli sec ..
+2018-01-24 01:28:00 ---- Cmd sent down
+2018-01-24 01:28:00 ---- 08220D00006168
+2018-01-24 01:28:00 ---- 030CF1
+2018-01-24 01:28:00 ---- Key press event happend less than 300 milli sec ..
+2018-01-24 01:28:00 ---- Key press event happend less than 300 milli sec ..
+2018-01-24 01:28:00 ---- Key press event happend less than 300 milli sec ..
+2018-01-24 01:28:00 ---- Key press event happend less than 300 milli sec ..
+2018-01-24 01:28:00 ---- Key press event happend less than 300 milli sec ..
+2018-01-24 01:28:01 ---- Cmd sent down
+2018-01-24 01:28:01 ---- Key press event happend less than 300 milli sec ..
+2018-01-24 01:28:01 ---- Key press event happend less than 300 milli sec ..
+2018-01-24 01:28:01 ---- 08220D00006168
+2018-01-24 01:28:01 ---- 030CF1
+2018-01-24 01:28:01 ---- Key press event happend less than 300 milli sec ..
+2018-01-24 01:28:01 ---- Key press event happend less than 300 milli sec ..
+2018-01-24 01:28:01 ---- Key press event happend less than 300 milli sec ..
+2018-01-24 01:28:02 ---- Cmd sent up
+2018-01-24 01:28:02 ---- 08220D00006069
+2018-01-24 01:28:02 ---- 030CF1
+2018-01-24 01:28:02 ---- Key press event happend less than 300 milli sec ..
+2018-01-24 01:28:02 ---- Key press event happend less than 300 milli sec ..
+2018-01-24 01:28:02 ---- Cmd sent up
+2018-01-24 01:28:02 ---- Key press event happend less than 300 milli sec ..
+2018-01-24 01:28:02 ---- Key press event happend less than 300 milli sec ..
+2018-01-24 01:28:02 ---- 08220D00006069
+2018-01-24 01:28:02 ---- 030CF1
+2018-01-24 01:28:02 ---- Key press event happend less than 300 milli sec ..
+2018-01-24 01:28:02 ---- Key press event happend less than 300 milli sec ..
+2018-01-24 01:28:02 ---- Key press event happend less than 300 milli sec ..
+2018-01-24 01:28:02 ---- Cmd sent up
+2018-01-24 01:28:02 ---- 08220D00006069
+2018-01-24 01:28:02 ---- 030CF1
+2018-01-24 01:28:02 ---- Key press event happend less than 300 milli sec ..
+2018-01-24 01:28:02 ---- Key press event happend less than 300 milli sec ..
+2018-01-24 01:28:02 ---- Key press event happend less than 300 milli sec ..
+2018-01-24 01:28:02 ---- Key press event happend less than 300 milli sec ..
+2018-01-24 01:28:03 ---- Key press event happend less than 300 milli sec ..
+2018-01-24 01:28:03 ---- Cmd sent up
+2018-01-24 01:28:03 ---- 08220D00006069
+2018-01-24 01:28:03 ---- 030CF1
+2018-01-24 01:28:04 ---- Cmd sent return
+2018-01-24 01:28:04 ---- 08220D00005871
+2018-01-24 01:28:04 ---- 030CF1
+2018-01-24 01:28:04 ---- Cmd sent chlist
+2018-01-24 01:28:04 ---- 08220D00006B5E
+2018-01-24 01:28:05 ---- 030CF1
+2018-01-24 01:28:06 ---- Cmd sent chlist
+2018-01-24 01:28:06 ---- 08220D00006B5E
+2018-01-24 01:28:06 ---- 030CF1
+2018-01-24 01:28:47 ---- Cmd sent home
+2018-01-24 01:28:47 ---- 08220A000500C7
+2018-01-24 01:28:47 ---- 030CF1
+2018-01-24 01:28:48 ---- Cmd sent 50
+2018-01-24 01:28:49 ---- 082201000032A3
+2018-01-24 01:28:49 ---- 030CF1
+2018-01-24 01:28:57 ---- Cmd sent tv
+2018-01-24 01:28:57 ---- Page load http://172.16.63.11/Ithaca/index.html# successfully
+2018-01-24 01:28:57 ---- 08220A000000CC
+2018-01-24 01:28:57 ---- 030CF1
+2018-01-24 01:28:58 ---- Cmd sent 20
+2018-01-24 01:28:58 ---- 08220100000ACB
+2018-01-24 01:28:58 ---- 030CF1
+2018-01-24 01:31:17 ---- Cmd sent picmode
+2018-01-24 01:31:17 ---- 08220D00006168
+2018-01-24 01:31:17 ---- 030CF1
+2018-01-24 01:32:17 ---- adb offlie check
+2018-01-24 01:34:13 ---- Cmd sent home
+2018-01-24 01:34:13 ---- 08220A000500C7
+2018-01-24 01:34:13 ---- 030CF1
+2018-01-24 01:34:15 ---- Cmd sent 50
+2018-01-24 01:34:15 ---- 082201000032A3
+2018-01-24 01:34:15 ---- 030CF1
+2018-01-24 01:34:28 ---- Cmd sent tv
+2018-01-24 01:34:28 ---- error: connecting Webserver IP
+2018-01-24 01:34:28 ---- Webserver NOT REACHABLE
+2018-01-24 01:34:28 ---- 08220A000000CC
+2018-01-24 01:34:28 ---- Webserver NOT REACHABLE
+2018-01-24 01:34:28 ---- 030CF1
+2018-01-24 01:34:28 ---- Webserver NOT REACHABLE
+2018-01-24 01:34:28 ---- Page load http://172.16.63.11/Ithaca/index.html# successfully
+2018-01-24 01:34:28 ---- Webserver NOT REACHABLE
+2018-01-24 01:34:29 ---- Cmd sent 20
+2018-01-24 01:34:29 ---- Webserver NOT REACHABLE
+2018-01-24 01:34:29 ---- 08220100000ACB
+2018-01-24 01:34:29 ---- Webserver NOT REACHABLE
+2018-01-24 01:34:29 ---- 030CF1
+2018-01-24 01:34:29 ---- Webserver NOT REACHABLE
+2018-01-24 01:34:32 ---- Cmd sent home
+2018-01-24 01:34:32 ---- error: connecting Webserver IP
+2018-01-24 01:34:32 ---- Webserver NOT REACHABLE
+2018-01-24 01:34:32 ---- 08220A000500C7
+2018-01-24 01:34:32 ---- Webserver NOT REACHABLE
+2018-01-24 01:34:32 ---- 030CF1
+2018-01-24 01:34:32 ---- Webserver NOT REACHABLE
+2018-01-24 01:34:34 ---- Cmd sent 50
+2018-01-24 01:34:34 ---- Webserver NOT REACHABLE
+2018-01-24 01:34:34 ---- 082201000032A3
+2018-01-24 01:34:34 ---- Webserver NOT REACHABLE
+2018-01-24 01:34:34 ---- 030CF1
+2018-01-24 01:34:34 ---- Webserver NOT REACHABLE
+2018-01-24 01:35:17 ---- Cmd sent picmode
+2018-01-24 01:35:17 ---- 08220D00006168
+2018-01-24 01:35:17 ---- 030CF1
+2018-01-24 01:35:20 ---- Cmd sent tv
+2018-01-24 01:35:20 ---- 08220A000000CC
+2018-01-24 01:35:20 ---- 030CF1
+2018-01-24 01:35:20 ---- Page load http://172.16.63.11/Ithaca/index.html# successfully
+2018-01-24 01:35:20 ---- Cmd sent 20
+2018-01-24 01:35:21 ---- 08220100000ACB
+2018-01-24 01:35:21 ---- 030CF1
+2018-01-24 01:36:32 ---- Cmd sent home
+2018-01-24 01:36:32 ---- 08220A000500C7
+2018-01-24 01:36:32 ---- 030CF1
+2018-01-24 01:36:34 ---- Cmd sent 50
+2018-01-24 01:36:34 ---- 082201000032A3
+2018-01-24 01:36:34 ---- 030CF1
+2018-01-24 01:38:52 ---- null
+2018-01-24 01:38:53 ---- java.lang.NullPointerException: Attempt to invoke virtual method 'int java.lang.String.length()' on a null object reference
+	at libcore.net.UriCodec.encode(UriCodec.java:132)
+	at java.net.URLEncoder.encode(URLEncoder.java:57)
+	at com.mspl.com.hotelithaca.Cls_logger$SendPostRequest.doInBackground(Cls_logger.java:141)
+	at com.mspl.com.hotelithaca.Cls_logger$SendPostRequest.doInBackground(Cls_logger.java:126)
+	at android.os.AsyncTask$2.call(AsyncTask.java:295)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+	at android.os.AsyncTask$SerialExecutor$1.run(AsyncTask.java:234)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1113)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:588)
+	at java.lang.Thread.run(Thread.java:818)
+
+2018-01-24 01:43:16 ---- adb offlie check
+2018-01-24 01:48:16 ---- adb offlie check
+2018-01-24 01:52:52 ---- Activity oncreate executed
+2018-01-24 01:52:53 ---- error: connecting Webserver IP
+2018-01-24 01:52:53 ---- Webserver NOT REACHABLE
+2018-01-24 01:52:53 ---- Starting io manager ..
+2018-01-24 01:52:53 ---- Webserver NOT REACHABLE
+2018-01-24 01:53:52 ---- Cmd sent picmode
+2018-01-24 01:53:53 ---- error: connecting Webserver IP
+2018-01-24 01:53:53 ---- Webserver NOT REACHABLE
+2018-01-24 01:53:53 ---- adb offlie check
+2018-01-24 01:53:53 ---- Webserver NOT REACHABLE
+2018-01-24 01:53:53 ---- 08220D00006168
+2018-01-24 01:53:53 ---- Webserver NOT REACHABLE
+2018-01-24 01:53:53 ---- 030CF1
+2018-01-24 01:53:53 ---- Webserver NOT REACHABLE
+2018-01-24 01:54:09 ---- null
+2018-01-24 01:54:10 ---- error: connecting Webserver IP
+2018-01-24 01:54:10 ---- Webserver NOT REACHABLE
+2018-01-24 01:55:00 ---- Page load Error description: net::ERR_CONNECTION_TIMED_OUT Error errorCode: -8 Error failingUrl: http://172.16.63.11/Ithaca/index.html
+2018-01-24 01:55:01 ---- error: connecting Webserver IP
+2018-01-24 01:55:01 ---- Webserver NOT REACHABLE
+2018-01-24 01:55:01 ---- Page load http://172.16.63.11/Ithaca/index.html successfully
+2018-01-24 01:55:01 ---- Webserver NOT REACHABLE
+2018-01-24 01:55:01 ---- Page load file:///android_asset/index.html successfully
+2018-01-24 01:55:01 ---- Webserver NOT REACHABLE
+2018-01-24 01:56:45 ---- Page load file:///android_asset/index.html# successfully
+2018-01-24 01:56:46 ---- error: connecting Webserver IP
+2018-01-24 01:56:46 ---- Webserver NOT REACHABLE
+2018-01-24 01:56:46 ---- Page load file:///android_asset/hotelinfo.html# successfully
+2018-01-24 01:56:46 ---- Webserver NOT REACHABLE
+2018-01-24 01:56:47 ---- Page load file:///android_asset/accomodation.htm successfully
+2018-01-24 01:56:47 ---- Webserver NOT REACHABLE
+2018-01-24 01:56:52 ---- Page load file:///android_asset/hotelinfo.html?fromurl=accomodation successfully
+2018-01-24 01:56:53 ---- error: connecting Webserver IP
+2018-01-24 01:56:53 ---- Webserver NOT REACHABLE
+2018-01-24 01:56:54 ---- Page load file:///android_asset/index.html?fromurl=hinfo successfully
+2018-01-24 01:56:54 ---- Webserver NOT REACHABLE
+2018-01-24 01:57:13 ---- Page load Error description: net::ERR_ADDRESS_UNREACHABLE Error errorCode: -2 Error failingUrl: http://172.16.63.11/Ithaca/ivod.html
+2018-01-24 01:57:14 ---- error: connecting Webserver IP
+2018-01-24 01:57:14 ---- Webserver NOT REACHABLE
+2018-01-24 01:57:14 ---- Page load http://172.16.63.11/Ithaca/ivod.html successfully
+2018-01-24 01:57:14 ---- Webserver NOT REACHABLE
+2018-01-24 01:57:14 ---- Page load file:///android_asset/index.html successfully
+2018-01-24 01:57:14 ---- Webserver NOT REACHABLE
+2018-01-24 01:57:26 ---- Page load Error description: net::ERR_ADDRESS_UNREACHABLE Error errorCode: -2 Error failingUrl: http://172.16.63.11/Ithaca/ivod.html
+2018-01-24 01:57:28 ---- error: connecting Webserver IP
+2018-01-24 01:57:28 ---- Webserver NOT REACHABLE
+2018-01-24 01:57:28 ---- Page load http://172.16.63.11/Ithaca/ivod.html successfully
+2018-01-24 01:57:28 ---- Webserver NOT REACHABLE
+2018-01-24 01:57:28 ---- Page load file:///android_asset/index.html successfully
+2018-01-24 01:57:28 ---- Webserver NOT REACHABLE
+2018-01-24 01:57:52 ---- Cmd sent picmode
+2018-01-24 01:57:53 ---- error: connecting Webserver IP
+2018-01-24 01:57:54 ---- Webserver NOT REACHABLE
+2018-01-24 01:57:54 ---- 08220D00006168
+2018-01-24 01:57:54 ---- Webserver NOT REACHABLE
+2018-01-24 01:57:54 ---- 030CF1
+2018-01-24 01:57:54 ---- Webserver NOT REACHABLE
+2018-01-24 01:58:02 ---- Cmd sent tv
+2018-01-24 01:58:03 ---- error: connecting Webserver IP
+2018-01-24 01:58:03 ---- Webserver NOT REACHABLE
+2018-01-24 01:58:03 ---- 08220A000000CC
+2018-01-24 01:58:03 ---- Webserver NOT REACHABLE
+2018-01-24 01:58:03 ---- 030CF1
+2018-01-24 01:58:03 ---- Webserver NOT REACHABLE
+2018-01-24 01:58:03 ---- Cmd sent 20
+2018-01-24 01:58:03 ---- Webserver NOT REACHABLE
+2018-01-24 01:58:03 ---- 08220100000ACB
+2018-01-24 01:58:03 ---- Webserver NOT REACHABLE
+2018-01-24 01:58:03 ---- 030CF1
+2018-01-24 01:58:03 ---- Webserver NOT REACHABLE
+2018-01-24 01:58:07 ---- 082202000000D4
+2018-01-24 01:58:08 ---- error: connecting Webserver IP
+2018-01-24 01:58:08 ---- Webserver NOT REACHABLE
+2018-01-24 01:58:08 ---- 030CF1
+2018-01-24 01:58:08 ---- Webserver NOT REACHABLE
+2018-01-24 01:58:08 ---- Cmd sent mute
+2018-01-24 01:58:08 ---- Webserver NOT REACHABLE
+2018-01-24 01:58:08 ---- Cmd sent mute
+2018-01-24 01:58:08 ---- Webserver NOT REACHABLE
+2018-01-24 01:58:08 ---- 082202000000D4
+2018-01-24 01:58:08 ---- Webserver NOT REACHABLE
+2018-01-24 01:58:08 ---- 030CF1
+2018-01-24 01:58:08 ---- Webserver NOT REACHABLE
+2018-01-24 01:58:08 ---- Cmd sent left
+2018-01-24 01:58:08 ---- Webserver NOT REACHABLE
+2018-01-24 01:58:08 ---- Key press event happend less than 300 milli sec ..
+2018-01-24 01:58:08 ---- Webserver NOT REACHABLE
+2018-01-24 01:58:08 ---- 08220D00006564
+2018-01-24 01:58:08 ---- Webserver NOT REACHABLE
+2018-01-24 01:58:08 ---- 030CF1
+2018-01-24 01:58:08 ---- Webserver NOT REACHABLE
+2018-01-24 01:58:10 ---- Cmd sent vplus
+2018-01-24 01:58:10 ---- Webserver NOT REACHABLE
+2018-01-24 01:58:10 ---- 082201000100D4
+2018-01-24 01:58:10 ---- Webserver NOT REACHABLE
+2018-01-24 01:58:10 ---- 030CF1
+2018-01-24 01:58:11 ---- error: connecting Webserver IP
+2018-01-24 01:58:11 ---- Webserver NOT REACHABLE
+2018-01-24 01:58:11 ---- Cmd sent vplus
+2018-01-24 01:58:11 ---- Webserver NOT REACHABLE
+2018-01-24 01:58:11 ---- 082201000100D4
+2018-01-24 01:58:11 ---- Webserver NOT REACHABLE
+2018-01-24 01:58:11 ---- Key press event happend less than 300 milli sec ..
+2018-01-24 01:58:11 ---- Webserver NOT REACHABLE
+2018-01-24 01:58:11 ---- 030CF1
+2018-01-24 01:58:11 ---- Webserver NOT REACHABLE
+2018-01-24 01:58:11 ---- Key press event happend less than 300 milli sec ..
+2018-01-24 01:58:11 ---- Webserver NOT REACHABLE
+2018-01-24 01:58:11 ---- Key press event happend less than 300 milli sec ..
+2018-01-24 01:58:11 ---- Webserver NOT REACHABLE
+2018-01-24 01:58:11 ---- Key press event happend less than 300 milli sec ..
+2018-01-24 01:58:11 ---- Webserver NOT REACHABLE
+2018-01-24 01:58:11 ---- Key press event happend less than 300 milli sec ..
+2018-01-24 01:58:11 ---- Webserver NOT REACHABLE
+2018-01-24 01:58:11 ---- Cmd sent vplus
+2018-01-24 01:58:11 ---- Webserver NOT REACHABLE
+2018-01-24 01:58:11 ---- Key press event happend less than 300 milli sec ..
+2018-01-24 01:58:11 ---- Webserver NOT REACHABLE
+2018-01-24 01:58:11 ---- Key press event happend less than 300 milli sec ..
+2018-01-24 01:58:11 ---- Webserver NOT REACHABLE
+2018-01-24 01:58:11 ---- 082201000100D4
+2018-01-24 01:58:11 ---- Webserver NOT REACHABLE
+2018-01-24 01:58:11 ---- Key press event happend less than 300 milli sec ..
+2018-01-24 01:58:11 ---- Webserver NOT REACHABLE
+2018-01-24 01:58:11 ---- 030CF1
+2018-01-24 01:58:11 ---- Webserver NOT REACHABLE
+2018-01-24 01:58:12 ---- Cmd sent home
+2018-01-24 01:58:12 ---- Webserver NOT REACHABLE
+2018-01-24 01:58:12 ---- 08220A000500C7
+2018-01-24 01:58:12 ---- Webserver NOT REACHABLE
+2018-01-24 01:58:12 ---- 030CF1
+2018-01-24 01:58:12 ---- Webserver NOT REACHABLE
+2018-01-24 01:58:14 ---- Cmd sent 50
+2018-01-24 01:58:15 ---- error: connecting Webserver IP
+2018-01-24 01:58:15 ---- Webserver NOT REACHABLE
+2018-01-24 01:58:15 ---- 082201000032A3
+2018-01-24 01:58:15 ---- Webserver NOT REACHABLE
+2018-01-24 01:58:15 ---- 030CF1
+2018-01-24 01:58:15 ---- Webserver NOT REACHABLE
+2018-01-24 01:59:18 ---- Activity oncreate executed
+2018-01-24 01:59:20 ---- error: connecting Webserver IP
+2018-01-24 01:59:20 ---- Webserver NOT REACHABLE
+2018-01-24 01:59:20 ---- Please insert the USB to TV connector
+2018-01-24 01:59:20 ---- Webserver NOT REACHABLE
+2018-01-24 01:59:22 ---- Page load Error description: net::ERR_ADDRESS_UNREACHABLE Error errorCode: -2 Error failingUrl: http://172.16.63.11/Ithaca/index.html
+2018-01-24 01:59:23 ---- error: connecting Webserver IP
+2018-01-24 01:59:23 ---- Webserver NOT REACHABLE
+2018-01-24 01:59:23 ---- Page load http://172.16.63.11/Ithaca/index.html successfully
+2018-01-24 01:59:23 ---- Webserver NOT REACHABLE
+2018-01-24 01:59:23 ---- Page load file:///android_asset/index.html successfully
+2018-01-24 01:59:23 ---- Webserver NOT REACHABLE
+2018-01-24 01:59:35 ---- OTT BOOT_COMPLETED
+2018-01-24 01:59:37 ---- error: connecting Webserver IP
+2018-01-24 01:59:37 ---- Webserver NOT REACHABLE
+2018-01-24 01:59:53 ---- java.lang.NullPointerException: Attempt to invoke virtual method 'void usbserial.util.SerialInputOutputManager.writeAsync(byte[])' on a null object reference
+	at msense.homepages.HomeActivity.htmlpagecodehandler(HomeActivity.java:1164)
+	at msense.homepages.HomeActivity.access$1900(HomeActivity.java:75)
+	at msense.homepages.HomeActivity$htmlkeycodehandler_task.doInBackground(HomeActivity.java:1065)
+	at msense.homepages.HomeActivity$htmlkeycodehandler_task.doInBackground(HomeActivity.java:1056)
+	at android.os.AsyncTask$2.call(AsyncTask.java:295)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+	at android.os.AsyncTask$SerialExecutor$1.run(AsyncTask.java:234)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1113)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:588)
+	at java.lang.Thread.run(Thread.java:818)
+
+2018-01-24 01:59:54 ---- error: connecting Webserver IP
+2018-01-24 01:59:55 ---- Webserver NOT REACHABLE
+2018-01-24 02:00:07 ---- java.lang.NullPointerException: Attempt to invoke virtual method 'void usbserial.util.SerialInputOutputManager.writeAsync(byte[])' on a null object reference
+	at msense.homepages.HomeActivity.htmlpagecodehandler(HomeActivity.java:1164)
+	at msense.homepages.HomeActivity.access$1900(HomeActivity.java:75)
+	at msense.homepages.HomeActivity$htmlkeycodehandler_task.doInBackground(HomeActivity.java:1065)
+	at msense.homepages.HomeActivity$htmlkeycodehandler_task.doInBackground(HomeActivity.java:1056)
+	at android.os.AsyncTask$2.call(AsyncTask.java:295)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+	at android.os.AsyncTask$SerialExecutor$1.run(AsyncTask.java:234)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1113)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:588)
+	at java.lang.Thread.run(Thread.java:818)
+
+2018-01-24 02:00:08 ---- error: connecting Webserver IP
+2018-01-24 02:00:08 ---- Webserver NOT REACHABLE
+2018-01-24 02:00:19 ---- adb offlie check
+2018-01-24 02:00:20 ---- error: connecting Webserver IP
+2018-01-24 02:00:20 ---- Webserver NOT REACHABLE
+2018-01-24 02:00:55 ---- null
+2018-01-24 02:00:57 ---- error: connecting Webserver IP
+2018-01-24 02:00:57 ---- Webserver NOT REACHABLE
+2018-01-24 02:03:10 ---- Activity oncreate executed
+2018-01-24 02:03:11 ---- error: connecting Webserver IP
+2018-01-24 02:03:11 ---- Webserver NOT REACHABLE
+2018-01-24 02:03:11 ---- Please insert the USB to TV connector
+2018-01-24 02:03:11 ---- Webserver NOT REACHABLE
+2018-01-24 02:03:13 ---- Page load Error description: net::ERR_ADDRESS_UNREACHABLE Error errorCode: -2 Error failingUrl: http://172.16.63.11/Ithaca/index.html
+2018-01-24 02:03:14 ---- error: connecting Webserver IP
+2018-01-24 02:03:14 ---- Webserver NOT REACHABLE
+2018-01-24 02:03:14 ---- Page load http://172.16.63.11/Ithaca/index.html successfully
+2018-01-24 02:03:14 ---- Webserver NOT REACHABLE
+2018-01-24 02:03:14 ---- Page load file:///android_asset/index.html successfully
+2018-01-24 02:03:14 ---- Webserver NOT REACHABLE
+2018-01-24 02:03:27 ---- OTT BOOT_COMPLETED
+2018-01-24 02:03:29 ---- error: connecting Webserver IP
+2018-01-24 02:03:29 ---- Webserver NOT REACHABLE
+2018-01-24 02:04:10 ---- adb offlie check
+2018-01-24 02:04:11 ---- error: connecting Webserver IP
+2018-01-24 02:04:11 ---- Webserver NOT REACHABLE
+2018-01-24 02:04:42 ---- null
+2018-01-24 02:04:43 ---- error: connecting Webserver IP
+2018-01-24 02:04:43 ---- Webserver NOT REACHABLE
+2018-01-24 02:08:35 ---- Activity oncreate executed
+2018-01-24 02:08:36 ---- error: connecting Webserver IP
+2018-01-24 02:08:36 ---- Webserver NOT REACHABLE
+2018-01-24 02:08:36 ---- Starting io manager ..
+2018-01-24 02:08:36 ---- Webserver NOT REACHABLE
+2018-01-24 02:08:38 ---- Page load Error description: net::ERR_ADDRESS_UNREACHABLE Error errorCode: -2 Error failingUrl: http://172.16.63.11/Ithaca/index.html
+2018-01-24 02:08:39 ---- error: connecting Webserver IP
+2018-01-24 02:08:39 ---- Webserver NOT REACHABLE
+2018-01-24 02:08:39 ---- Page load http://172.16.63.11/Ithaca/index.html successfully
+2018-01-24 02:08:39 ---- Webserver NOT REACHABLE
+2018-01-24 02:08:39 ---- Page load file:///android_asset/index.html successfully
+2018-01-24 02:08:39 ---- Webserver NOT REACHABLE
+2018-01-24 02:09:35 ---- Cmd sent picmode
+2018-01-24 02:09:36 ---- error: connecting Webserver IP
+2018-01-24 02:09:36 ---- Webserver NOT REACHABLE
+2018-01-24 02:09:36 ---- adb offlie check
+2018-01-24 02:09:37 ---- Webserver NOT REACHABLE
+2018-01-24 02:09:37 ---- 08220D00006168
+2018-01-24 02:09:37 ---- Webserver NOT REACHABLE
+2018-01-24 02:09:37 ---- 030CF1
+2018-01-24 02:09:37 ---- Webserver NOT REACHABLE
+2018-01-24 02:09:56 ---- Cmd sent tv
+2018-01-24 02:09:57 ---- error: connecting Webserver IP
+2018-01-24 02:09:57 ---- Webserver NOT REACHABLE
+2018-01-24 02:09:57 ---- 08220A000000CC
+2018-01-24 02:09:57 ---- Webserver NOT REACHABLE
+2018-01-24 02:09:57 ---- 030CF1
+2018-01-24 02:09:57 ---- Webserver NOT REACHABLE
+2018-01-24 02:09:57 ---- Cmd sent 20
+2018-01-24 02:09:57 ---- Webserver NOT REACHABLE
+2018-01-24 02:09:57 ---- 08220100000ACB
+2018-01-24 02:09:57 ---- Webserver NOT REACHABLE
+2018-01-24 02:09:57 ---- 030CF1
+2018-01-24 02:09:57 ---- Webserver NOT REACHABLE
+2018-01-24 02:10:12 ---- Cmd sent home
+2018-01-24 02:10:13 ---- error: connecting Webserver IP
+2018-01-24 02:10:13 ---- Webserver NOT REACHABLE
+2018-01-24 02:10:13 ---- 08220A000500C7
+2018-01-24 02:10:13 ---- Webserver NOT REACHABLE
+2018-01-24 02:10:13 ---- 030CF1
+2018-01-24 02:10:13 ---- Webserver NOT REACHABLE
+2018-01-24 02:10:14 ---- Cmd sent 50
+2018-01-24 02:10:14 ---- Webserver NOT REACHABLE
+2018-01-24 02:10:14 ---- 082201000032A3
+2018-01-24 02:10:14 ---- Webserver NOT REACHABLE
+2018-01-24 02:10:14 ---- 030CF1
+2018-01-24 02:10:14 ---- Webserver NOT REACHABLE
+2018-01-24 02:13:35 ---- Cmd sent picmode
+2018-01-24 02:13:37 ---- error: connecting Webserver IP
+2018-01-24 02:13:37 ---- Webserver NOT REACHABLE
+2018-01-24 02:13:37 ---- 08220D00006168
+2018-01-24 02:13:37 ---- Webserver NOT REACHABLE
+2018-01-24 02:13:37 ---- 030CF1
+2018-01-24 02:13:37 ---- Webserver NOT REACHABLE
+2018-01-24 02:14:35 ---- adb offlie check
+2018-01-24 02:14:37 ---- error: connecting Webserver IP
+2018-01-24 02:14:37 ---- Webserver NOT REACHABLE

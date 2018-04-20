@@ -1,0 +1,25 @@
+2018-01-24 02:24:14 ---- Activity oncreate executed
+2018-01-24 02:24:15 ---- error: connecting Webserver IP
+2018-01-24 02:24:15 ---- Webserver NOT REACHABLE
+2018-01-24 02:24:15 ---- Please insert the USB to TV connector
+2018-01-24 02:24:15 ---- Webserver NOT REACHABLE
+2018-01-24 02:24:17 ---- Page load Error description: net::ERR_ADDRESS_UNREACHABLE Error errorCode: -2 Error failingUrl: http://172.16.63.11/Ithaca/index.html
+2018-01-24 02:24:18 ---- error: connecting Webserver IP
+2018-01-24 02:24:18 ---- Webserver NOT REACHABLE
+2018-01-24 02:24:18 ---- Page load http://172.16.63.11/Ithaca/index.html successfully
+2018-01-24 02:24:18 ---- Webserver NOT REACHABLE
+2018-01-24 02:24:18 ---- Page load file:///android_asset/index.html successfully
+2018-01-24 02:24:18 ---- Webserver NOT REACHABLE
+2018-01-24 02:24:32 ---- OTT BOOT_COMPLETED
+2018-01-24 02:24:33 ---- error: connecting Webserver IP
+2018-01-24 02:24:33 ---- Webserver NOT REACHABLE
+2018-01-24 02:25:14 ---- adb offlie check
+2018-01-24 02:25:15 ---- error: connecting Webserver IP
+2018-01-24 02:25:15 ---- Webserver NOT REACHABLE
+2018-01-24 02:30:14 ---- adb offlie check
+2018-01-24 02:30:15 ---- error: connecting Webserver IP
+2018-01-24 02:30:15 ---- Webserver NOT REACHABLE
+2018-01-24 02:35:40 ---- Activity oncreate executed
+2018-01-24 02:35:41 ---- Please insert the USB to TV connector
+2018-01-24 02:35:43 ---- Page load http://172.16.63.11/Ithaca/index.html successfully
+2018-01-24 02:35:55 ---- OTT BOOT_COMPLETED

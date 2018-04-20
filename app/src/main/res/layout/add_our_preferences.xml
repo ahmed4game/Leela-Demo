@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+
+     <EditText
+         android:id="@+id/edt_cmd_name"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"        
+
+         android:ems="10"
+         android:layout_alignTop="@+id/txt_cmd_name"
+         android:layout_toRightOf="@+id/txt_cmd_name"
+         android:layout_toEndOf="@+id/txt_cmd_name"
+         android:layout_marginLeft="22dp"
+         android:layout_marginStart="22dp">
+
+         <requestFocus />
+     </EditText>
+
+     <EditText
+         android:id="@+id/edt_cmd_value"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:ems="10"
+         android:layout_alignTop="@+id/txt_cmd_value"
+         android:layout_alignLeft="@+id/edt_cmd_name"
+         android:layout_alignStart="@+id/edt_cmd_name" />
+
+     <TextView
+         android:id="@+id/txt_cmd_value"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignLeft="@+id/txt_cmd_name"
+         android:layout_below="@+id/edt_cmd_name"
+         android:layout_marginTop="40dp"
+         android:text="@string/str_cmd_value" />
+
+     <TextView
+         android:id="@+id/txt_cmd_name"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignParentLeft="true"
+         android:layout_alignParentTop="true"
+         android:layout_marginTop="21dp"
+         android:text="@string/str_cmd_name" />
+
+     <Button
+         android:id="@+id/btn_view"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="@string/str_view"
+         android:layout_below="@+id/btn_back"
+         android:layout_alignRight="@+id/btn_stn"
+         android:layout_alignEnd="@+id/btn_stn" />
+
+     <Button
+         android:id="@+id/btn_stn"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="@string/str_settings1"
+         android:layout_above="@+id/btn_back"
+         android:layout_alignRight="@+id/edt_cmd_value"
+         android:layout_alignEnd="@+id/edt_cmd_value" />
+
+     <Button
+         android:id="@+id/btn_back"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="@string/str_back1"
+         android:layout_centerVertical="true"
+         android:layout_alignLeft="@+id/btn_saveip"
+         android:layout_alignStart="@+id/btn_saveip" />
+
+     <Button
+         android:id="@+id/btn_savech"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_marginTop="11dp"
+         android:text="@string/str_savechannels"
+         android:layout_marginLeft="19dp"
+         android:layout_marginStart="19dp"
+         android:layout_below="@+id/btn_view"
+         android:layout_alignParentLeft="true"
+         android:layout_alignParentStart="true" />
+
+     <Button
+         android:id="@+id/btn_saveip"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="@string/str_saveip"
+         android:layout_above="@+id/btn_stn"
+         android:layout_alignLeft="@+id/btn_savech"
+         android:layout_alignStart="@+id/btn_savech" />
+
+</RelativeLayout>

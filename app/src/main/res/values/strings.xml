@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">HotelIthaca</string>
+    <string name="app_title">USB Serial Example</string>
+
+    <string name="refreshing">Refreshing...</string>
+    <string name="textBtnRTS">RTS - Request To Send</string>
+    <string name="textBtnDTR">DTR - Data Terminal Ready</string>
+    <string name="str_cmd_value">Command Value</string>
+    <string name="str_cmd_name">Command Name</string>
+    <string name="str_saveip">Save IP</string>
+    <string name="str_view">View Data</string>
+    <string name="str_back1">Back</string>
+    <string name="str_settings1">Settings</string>
+    <string name="str_savechannels">Open launcher</string>
+    <string name="info_title">Information</string>
+    <string name="reboot_message">We are upgrading services, reboot required.  Please click “OK” . </string>
+    <string name="help_desk">Please contact help desk – code 005 </string>
+    <string name="ok">OK</string>
+    <string name="cancel">CANCEL</string>
+</resources>
