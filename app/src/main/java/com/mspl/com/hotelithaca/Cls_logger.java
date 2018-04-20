@@ -133,6 +133,9 @@ public class Cls_logger  {
             tv_test_preference= PreferenceManager.getDefaultSharedPreferences(MyApplication.getAppContext());
             webserver_IP = tv_test_preference.getString("webserverip", "172.16.63.11");
             texttowrite=params[0];
+            texttowrite=params[0];
+            texttowrite=params[0];
+            texttowrite=params[0];
             Log.v(TAG,"SendPostRequest " + texttowrite);
             if (texttowrite.equalsIgnoreCase("boxstatus"))
                texttowrite= wifiresult1();
